@@ -80,6 +80,8 @@ ros2 run xacro xacro src/Universal_Robots_ROS2_Description/urdf/ur.urdf.xacro ur
 ros2 launch moveit_setup_assistant setup_assistant.launch.py
 ```
 
+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
+
 **Step C: Load the URDF**
 In the Setup Assistant's start screen, click **"Browse"** and navigate to the file you just created: `/tmp/ur10e_for_moveit.urdf`.
 
