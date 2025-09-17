@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/home/nithish/robotic_arm_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/ur_simulation_gazebo:/home/nithish/robotic_arm_ws/src/install/ur_simulation_gazebo:/home/nithish/robotic_arm_ws/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/nithish/robotic_arm_ws/build/ur_simulation_gazebo -- -j12 -l12
+[0.083s] Invoked command in '/home/nithish/robotic_arm_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/ur_simulation_gazebo:/home/nithish/robotic_arm_ws/src/install/ur_simulation_gazebo:/home/nithish/robotic_arm_ws/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --build /home/nithish/robotic_arm_ws/build/ur_simulation_gazebo -- -j12 -l12
+[0.085s] Invoking command in '/home/nithish/robotic_arm_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/ur_simulation_gazebo:/home/nithish/robotic_arm_ws/src/install/ur_simulation_gazebo:/home/nithish/robotic_arm_ws/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/nithish/robotic_arm_ws/build/ur_simulation_gazebo
+[0.099s] -- Install configuration: ""
+[0.099s] -- Execute custom install script
+[0.100s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+[0.100s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py
+[0.100s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py
+[0.100s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gazebo
+[0.101s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gazebo
+[0.101s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.sh
+[0.101s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.dsv
+[0.101s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.sh
+[0.101s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.dsv
+[0.102s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.bash
+[0.102s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.sh
+[0.102s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.zsh
+[0.102s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.dsv
+[0.102s] -- Symlinking: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv
+[0.116s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/packages/ur_simulation_gazebo
+[0.116s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig.cmake
+[0.117s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig-version.cmake
+[0.117s] -- Up-to-date symlink: /home/nithish/robotic_arm_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.xml
+[0.119s] Invoked command in '/home/nithish/robotic_arm_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/ur_simulation_gazebo:/home/nithish/robotic_arm_ws/src/install/ur_simulation_gazebo:/home/nithish/robotic_arm_ws/src/install/ur_description:/opt/ros/humble /usr/bin/cmake --install /home/nithish/robotic_arm_ws/build/ur_simulation_gazebo
