@@ -81,6 +81,7 @@ ros2 launch moveit_setup_assistant setup_assistant.launch.py
 ```
 
 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
+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
 
 **Step C: Load the URDF**
 In the Setup Assistant's start screen, click **"Browse"** and navigate to the file you just created: `/tmp/ur10e_for_moveit.urdf`.
