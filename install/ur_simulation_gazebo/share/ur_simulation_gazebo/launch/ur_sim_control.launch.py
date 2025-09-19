@@ -1,1 +1,0 @@
-/home/nithish/robotic_arm_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo/launch/ur_sim_control.launch.py

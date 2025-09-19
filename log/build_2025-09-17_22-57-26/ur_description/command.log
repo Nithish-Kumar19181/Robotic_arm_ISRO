@@ -1,4 +1,0 @@
-Invoking command in '/home/nithish/robotic_arm_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nithish/robotic_arm_ws/build/ur_description -- -j12 -l12
-Invoked command in '/home/nithish/robotic_arm_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nithish/robotic_arm_ws/build/ur_description -- -j12 -l12
-Invoking command in '/home/nithish/robotic_arm_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nithish/robotic_arm_ws/build/ur_description
-Invoked command in '/home/nithish/robotic_arm_ws/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nithish/robotic_arm_ws/build/ur_description

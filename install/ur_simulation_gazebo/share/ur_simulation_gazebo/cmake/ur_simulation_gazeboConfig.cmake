@@ -1,1 +1,0 @@
-/home/nithish/robotic_arm_ws/build/ur_simulation_gazebo/ament_cmake_core/ur_simulation_gazeboConfig.cmake
