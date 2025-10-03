@@ -1,0 +1,1 @@
+/home/nithish/ur10e_ws/src/ros2_nr_motion_control/launch/cartesian_space_trajectory.launch.py

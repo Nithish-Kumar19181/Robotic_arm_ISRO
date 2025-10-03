@@ -1,0 +1,1 @@
+/home/nithish/ur10e_ws/src/my_moveit_config/launch/static_virtual_joint_tfs.launch.py

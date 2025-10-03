@@ -1,0 +1,10 @@
+[ 12%] Built target gtest_main
+[ 25%] Built target gtest
+[ 37%] Built target joint_angle_publisher
+[ 50%] Built target joint_space_trajectory_node
+[ 56%] [32mBuilding CXX object CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o[0m
+[ 68%] Built target joint_sine_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o[0m
+[ 87%] Built target test_robot_arm_motion_planner
+[ 93%] [32m[1mLinking CXX executable cartesian_space_trajectory_node[0m
+[ 93%] Built target cartesian_space_trajectory_node

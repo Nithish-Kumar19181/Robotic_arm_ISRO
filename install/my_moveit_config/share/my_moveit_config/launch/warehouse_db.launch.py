@@ -1,0 +1,1 @@
+/home/nithish/ur10e_ws/src/my_moveit_config/launch/warehouse_db.launch.py

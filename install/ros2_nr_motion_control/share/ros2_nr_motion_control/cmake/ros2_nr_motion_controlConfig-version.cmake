@@ -1,0 +1,1 @@
+/home/nithish/ur10e_ws/build/ros2_nr_motion_control/ament_cmake_core/ros2_nr_motion_controlConfig-version.cmake

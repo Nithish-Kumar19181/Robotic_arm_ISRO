@@ -1,0 +1,1 @@
+/home/nithish/ur10e_ws/build/my_moveit_config/ament_cmake_environment_hooks/local_setup.zsh

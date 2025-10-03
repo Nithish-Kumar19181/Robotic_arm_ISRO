@@ -1,0 +1,1 @@
+/home/nithish/ur10e_ws/build/ros2_nr_motion_control/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,18 @@
+[0.006s] Invoking command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/my_moveit_config:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ros2_nr_motion_control -- -j12 -l12
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target helix_trajectory_publisher[0m
+[0.073s] [ 12%] Built target gtest_main
+[0.073s] [ 25%] Built target gtest
+[0.074s] [ 37%] Built target joint_angle_publisher
+[0.076s] [ 50%] Built target cartesian_space_trajectory_node
+[0.077s] [ 62%] Built target joint_sine_publisher
+[0.080s] [ 75%] Built target joint_space_trajectory_node
+[0.080s] [ 81%] [32mBuilding CXX object CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o[0m
+[0.095s] [ 93%] Built target test_robot_arm_motion_planner
+[0.274s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Krobot_arm_motion_planner/robot_arm_motion_planner.hpp: No such file or directory
+[0.275s]    13 | #include [01;31m[K"robot_arm_motion_planner/robot_arm_motion_planner.hpp"[m[K
+[0.275s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.275s] compilation terminated.
+[0.277s] gmake[2]: *** [CMakeFiles/helix_trajectory_publisher.dir/build.make:76: CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o] Error 1
+[0.278s] gmake[1]: *** [CMakeFiles/Makefile2:269: CMakeFiles/helix_trajectory_publisher.dir/all] Error 2
+[0.278s] gmake: *** [Makefile:146: all] Error 2
+[0.280s] Invoked command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control' returned '2': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/my_moveit_config:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ros2_nr_motion_control -- -j12 -l12

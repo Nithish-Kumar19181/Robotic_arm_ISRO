@@ -1,0 +1,19 @@
+[0.551s] Invoking command in '/home/nithish/ur10e_ws/build/servo_control': PYTHONPATH=/home/nithish/ur10e_ws/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nithish/ur10e_ws/install/servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nithish/ur10e_ws/build/servo_control/build --no-deps symlink_data --force
+[0.738s] running develop
+[0.847s] running egg_info
+[0.847s] writing servo_control.egg-info/PKG-INFO
+[0.848s] writing dependency_links to servo_control.egg-info/dependency_links.txt
+[0.848s] writing entry points to servo_control.egg-info/entry_points.txt
+[0.848s] writing requirements to servo_control.egg-info/requires.txt
+[0.848s] writing top-level names to servo_control.egg-info/top_level.txt
+[0.849s] reading manifest file 'servo_control.egg-info/SOURCES.txt'
+[0.849s] writing manifest file 'servo_control.egg-info/SOURCES.txt'
+[0.877s] running build_ext
+[0.877s] Creating /home/nithish/ur10e_ws/install/servo_control/lib/python3.10/site-packages/servo-control.egg-link (link to .)
+[0.878s] Installing cylinder_cleaning_servo script to /home/nithish/ur10e_ws/install/servo_control/lib/servo_control
+[0.878s] 
+[0.878s] Installed /home/nithish/ur10e_ws/build/servo_control
+[0.878s] running symlink_data
+[0.878s] symbolically linking /home/nithish/ur10e_ws/build/servo_control/resource/servo_control -> /home/nithish/ur10e_ws/install/servo_control/share/ament_index/resource_index/packages
+[0.879s] symbolically linking /home/nithish/ur10e_ws/build/servo_control/package.xml -> /home/nithish/ur10e_ws/install/servo_control/share/servo_control
+[0.903s] Invoked command in '/home/nithish/ur10e_ws/build/servo_control' returned '0': PYTHONPATH=/home/nithish/ur10e_ws/build/servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nithish/ur10e_ws/install/servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nithish/ur10e_ws/build/servo_control/build --no-deps symlink_data --force

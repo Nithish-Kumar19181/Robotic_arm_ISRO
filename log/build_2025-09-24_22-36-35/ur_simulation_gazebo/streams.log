@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/nithish/ur10e_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ur_simulation_gazebo -- -j12 -l12
+[0.042s] Invoked command in '/home/nithish/ur10e_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ur_simulation_gazebo -- -j12 -l12
+[0.050s] Invoking command in '/home/nithish/ur10e_ws/build/ur_simulation_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --install /home/nithish/ur10e_ws/build/ur_simulation_gazebo
+[0.057s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/config/ur_controllers.yaml
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_moveit.launch.py
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/launch/ur_sim_control.launch.py
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/package_run_dependencies/ur_simulation_gazebo
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/parent_prefix_path/ur_simulation_gazebo
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.sh
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/environment/path.dsv
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.bash
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.sh
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.zsh
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/local_setup.dsv
+[0.058s] -- Installing: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ament_index/resource_index/packages/ur_simulation_gazebo
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig.cmake
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/cmake/ur_simulation_gazeboConfig-version.cmake
+[0.058s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.xml
+[0.059s] Invoked command in '/home/nithish/ur10e_ws/build/ur_simulation_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --install /home/nithish/ur10e_ws/build/ur_simulation_gazebo

@@ -1,0 +1,3 @@
+[console_scripts]
+cylinder_cleaning_servo = servo_control.cylinder_cleaning_servo:main
+

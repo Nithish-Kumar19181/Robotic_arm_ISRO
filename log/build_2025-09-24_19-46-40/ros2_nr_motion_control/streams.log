@@ -1,0 +1,20 @@
+[0.007s] Invoking command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/my_moveit_config:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ros2_nr_motion_control -- -j12 -l12
+[0.048s] [ 12%] Built target gtest_main
+[0.052s] [ 25%] Built target gtest
+[0.057s] [ 37%] Built target joint_angle_publisher
+[0.058s] [ 50%] Built target joint_space_trajectory_node
+[0.058s] [ 56%] [32mBuilding CXX object CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o[0m
+[0.059s] [ 68%] Built target joint_sine_publisher
+[0.062s] [ 75%] [32mBuilding CXX object CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o[0m
+[0.073s] [ 87%] Built target test_robot_arm_motion_planner
+[2.732s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:[m[K In constructor ‘[01m[KHelixTrajectoryPublisher::HelixTrajectoryPublisher(const rclcpp::NodeOptions&)[m[K’:
+[2.732s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:28:24:[m[K [01;31m[Kerror: [m[K‘[01m[KCircleTrajectoryPublisher[m[K’ has not been declared
+[2.733s]    28 |             std::bind(&[01;31m[KCircleTrajectoryPublisher[m[K::jointStateCallback, this, std::placeholders::_1));
+[2.733s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.754s] gmake[2]: *** [CMakeFiles/helix_trajectory_publisher.dir/build.make:76: CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o] Error 1
+[4.755s] gmake[1]: *** [CMakeFiles/Makefile2:269: CMakeFiles/helix_trajectory_publisher.dir/all] Error 2
+[4.755s] gmake[1]: *** Waiting for unfinished jobs....
+[10.078s] [ 93%] [32m[1mLinking CXX executable cartesian_space_trajectory_node[0m
+[10.540s] [ 93%] Built target cartesian_space_trajectory_node
+[10.541s] gmake: *** [Makefile:146: all] Error 2
+[10.544s] Invoked command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control' returned '2': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/my_moveit_config:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ros2_nr_motion_control -- -j12 -l12

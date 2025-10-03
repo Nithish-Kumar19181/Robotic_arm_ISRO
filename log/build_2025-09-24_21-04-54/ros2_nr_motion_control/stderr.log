@@ -1,0 +1,4 @@
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:[m[K In member function ‘[01m[KKDL::Rotation CircleTrajectoryPublisher::calculateOutwardOrientation(double, const KDL::Vector&)[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:119:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  119 |     KDL::Rotation calculateOutwardOrientation([01;35m[Kdouble angle[m[K, const KDL::Vector& position)
+      |                                               [01;35m[K~~~~~~~^~~~~[m[K

@@ -1,0 +1,10 @@
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:[m[K In member function ‘[01m[Kvoid CylinderCleaningPublisher::publishCleaningTarget()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:129:45:[m[K [01;31m[Kerror: [m[K‘[01m[KSlerp[m[K’ is not a member of ‘[01m[KKDL::Rotation[m[K’
+  129 |             target_frame.M = KDL::Rotation::[01;31m[KSlerp[m[K(robot_start_pose_.M, circle_start_frame.M, ratio);
+      |                                             [01;31m[K^~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:159:61:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KKDL::JntArray[m[K’ and ‘[01m[Kunsigned int[m[K’)
+  159 |                 point_msg.positions[i] = result_joint_angles[01;31m[K[[m[Ki];
+      |                                                             [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/helix_trajectory_publisher.dir/build.make:76: CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:269: CMakeFiles/helix_trajectory_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

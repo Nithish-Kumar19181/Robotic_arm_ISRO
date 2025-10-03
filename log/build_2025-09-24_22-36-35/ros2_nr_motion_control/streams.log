@@ -1,0 +1,21 @@
+[0.007s] Invoking command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/my_moveit_config:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ros2_nr_motion_control -- -j12 -l12
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target helix_trajectory_publisher[0m
+[0.059s] [ 12%] Built target joint_sine_publisher
+[0.059s] [ 25%] Built target joint_angle_publisher
+[0.066s] [ 43%] Built target gtest
+[0.066s] [ 50%] Built target gtest_main
+[0.066s] [ 62%] Built target joint_space_trajectory_node
+[0.069s] [ 75%] Built target cartesian_space_trajectory_node
+[0.073s] [ 81%] [32mBuilding CXX object CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o[0m
+[0.090s] [ 93%] Built target test_robot_arm_motion_planner
+[2.772s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:[m[K In member function ‘[01m[Kvoid CylinderCleaningPublisher::publishCleaningTarget()[m[K’:
+[2.772s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:129:45:[m[K [01;31m[Kerror: [m[K‘[01m[KSlerp[m[K’ is not a member of ‘[01m[KKDL::Rotation[m[K’
+[2.773s]   129 |             target_frame.M = KDL::Rotation::[01;31m[KSlerp[m[K(robot_start_pose_.M, circle_start_frame.M, ratio);
+[2.773s]       |                                             [01;31m[K^~~~~[m[K
+[2.773s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:159:61:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KKDL::JntArray[m[K’ and ‘[01m[Kunsigned int[m[K’)
+[2.773s]   159 |                 point_msg.positions[i] = result_joint_angles[01;31m[K[[m[Ki];
+[2.773s]       |                                                             [01;31m[K^[m[K
+[5.206s] gmake[2]: *** [CMakeFiles/helix_trajectory_publisher.dir/build.make:76: CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o] Error 1
+[5.207s] gmake[1]: *** [CMakeFiles/Makefile2:269: CMakeFiles/helix_trajectory_publisher.dir/all] Error 2
+[5.207s] gmake: *** [Makefile:146: all] Error 2
+[5.210s] Invoked command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control' returned '2': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/my_moveit_config:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ros2_nr_motion_control -- -j12 -l12

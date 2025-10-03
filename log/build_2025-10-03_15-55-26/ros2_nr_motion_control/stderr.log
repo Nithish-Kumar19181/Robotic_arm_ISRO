@@ -1,0 +1,38 @@
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In constructor ‘[01m[KCombinedMotionNode::CombinedMotionNode()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:48:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   48 |         marker_pub_ = this->[01;31m[Kcreate_publisher<visualization_msgs::msg/MarkerArray>[m[K(
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:48:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCombinedMotionNode::create_publisher<<expression error> >(const char [23], int)[m[K’
+   48 |         marker_pub_ = [01;31m[Kthis->create_publisher<visualization_msgs::msg/MarkerArray>([m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   49 | [01;31m[K            "/ik_trajectory_markers", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                         
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:48:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   48 |         marker_pub_ = [01;31m[Kthis->create_publisher<visualization_msgs::msg/MarkerArray>([m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   49 | [01;31m[K            "/ik_trajectory_markers", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                         
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In member function ‘[01m[Kvoid CombinedMotionNode::publishNextPoint()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:139:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::TimerBase[m[K’ {aka ‘[01m[Kclass rclcpp::TimerBase[m[K’} has no member named ‘[01m[Kis_running[m[K’
+  139 |                 if (timer_ && timer_->[01;31m[Kis_running[m[K()) {
+      |                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In member function ‘[01m[Kvoid CombinedMotionNode::handleTransitionInward()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:182:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterpolate[m[K’ is not a member of ‘[01m[KKDL[m[K’
+  182 |         KDL::Vector current_pos = KDL::[01;31m[Kinterpolate[m[K(start_pos, end_pos, progress);
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In member function ‘[01m[Kvoid CombinedMotionNode::handleTransitionArcUpOut()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:207:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterpolate[m[K’ is not a member of ‘[01m[KKDL[m[K’
+  207 |         double current_z = KDL::[01;31m[Kinterpolate[m[K(p_start.z(), p_end.z(), progress);
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cartesian_space_trajectory_node.dir/build.make:76: CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/cartesian_space_trajectory_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

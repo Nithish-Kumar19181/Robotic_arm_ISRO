@@ -1,0 +1,57 @@
+[0.006s] Invoking command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/my_moveit_config:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ros2_nr_motion_control -- -j12 -l12
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target cartesian_space_trajectory_node[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target helix_trajectory_publisher[0m
+[0.052s] [ 12%] Built target joint_sine_publisher
+[0.056s] [ 25%] Built target joint_space_trajectory_node
+[0.057s] [ 50%] Built target gtest_main
+[0.057s] [ 50%] Built target gtest
+[0.058s] [ 62%] Built target joint_angle_publisher
+[0.064s] [ 75%] Built target cartesian_space_trajectory_node
+[0.066s] [ 81%] [32mBuilding CXX object CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o[0m
+[0.079s] [ 93%] Built target test_robot_arm_motion_planner
+[7.501s] [100%] [32m[1mLinking CXX executable helix_trajectory_publisher[0m
+[7.968s] [100%] Built target helix_trajectory_publisher
+[7.978s] Invoked command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control' returned '0': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/my_moveit_config:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ros2_nr_motion_control -- -j12 -l12
+[7.980s] Invoking command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/my_moveit_config:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --install /home/nithish/ur10e_ws/build/ros2_nr_motion_control
+[7.987s] -- Install configuration: ""
+[7.987s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/lib/ros2_nr_motion_control/joint_angle_publisher
+[7.987s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/lib/ros2_nr_motion_control/joint_sine_publisher
+[7.988s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/lib/ros2_nr_motion_control/joint_space_trajectory_node
+[7.988s] -- Installing: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/lib/ros2_nr_motion_control/cartesian_space_trajectory_node
+[7.990s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ros2_nr_motion_control/lib/ros2_nr_motion_control/cartesian_space_trajectory_node" to ""
+[7.990s] -- Installing: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/lib/ros2_nr_motion_control/helix_trajectory_publisher
+[7.993s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ros2_nr_motion_control/lib/ros2_nr_motion_control/helix_trajectory_publisher" to ""
+[7.993s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/launch
+[7.993s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/launch/joint_space_trajectory.launch.py
+[7.994s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/launch/servo_cylinder_cleaning.launch.py
+[7.994s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/launch/cartesian_space_trajectory.launch.py
+[7.994s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/launch/sinusoidal_trajectory.launch.py
+[7.994s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/launch/helix_control.launch.py
+[7.994s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/include
+[7.994s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/include/robot_arm_motion_planner
+[7.994s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/include/robot_arm_motion_planner/robot_arm_motion_planner.hpp
+[7.994s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/rviz
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/rviz/view_robot.rviz
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/config
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/config/ur_servo.yaml
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/config/kinematics.yaml
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/config/ur10e.urdf.xacro
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/config/ur_mock_controllers.yaml
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/config/ur_ros2_control.xacro
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/config/ur10e.srdf
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ament_index/resource_index/package_run_dependencies/ros2_nr_motion_control
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ament_index/resource_index/parent_prefix_path/ros2_nr_motion_control
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/environment/ament_prefix_path.sh
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/environment/ament_prefix_path.dsv
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/environment/path.sh
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/environment/path.dsv
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/local_setup.bash
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/local_setup.sh
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/local_setup.zsh
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/local_setup.dsv
+[7.995s] -- Installing: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/package.dsv
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ament_index/resource_index/packages/ros2_nr_motion_control
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/cmake/ros2_nr_motion_controlConfig.cmake
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/cmake/ros2_nr_motion_controlConfig-version.cmake
+[7.995s] -- Up-to-date: /home/nithish/ur10e_ws/install/ros2_nr_motion_control/share/ros2_nr_motion_control/package.xml
+[7.997s] Invoked command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control' returned '0': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/my_moveit_config:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --install /home/nithish/ur10e_ws/build/ros2_nr_motion_control
