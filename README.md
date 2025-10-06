@@ -2,9 +2,9 @@
 
 This repository contains a ROS 2 Humble workspace for the simulation and motion planning of a Universal Robots UR10e robotic arm. The project is configured for use with MoveIt 2 and includes a custom URDF with an added bowl model at the base of the robot for simulated interaction tasks.
 
-                <img width="631" height="472" alt="image" src="https://github.com/user-attachments/assets/b96c0ed4-ca2d-4d50-bd8c-5071c016aab5" />
+  <img width="631" height="472" alt="image" src="https://github.com/user-attachments/assets/b96c0ed4-ca2d-4d50-bd8c-5071c016aab5" />
 
-                <img width="631" height="472" alt="image" src="https://github.com/user-attachments/assets/70c2f612-89c2-442b-af8a-3282bb46f6a6" />
+  <img width="631" height="472" alt="image" src="https://github.com/user-attachments/assets/70c2f612-89c2-442b-af8a-3282bb46f6a6" />
 
 
 
