@@ -1,4 +1,4 @@
-# Robotic Arm ISRO Project 🦾
+# Robotic Arm ISRO Project 🦾(Need to change this)
 
 This repository contains a ROS 2 Humble workspace for the simulation and motion planning of a Universal Robots UR10e robotic arm. The project is configured for use with MoveIt 2 and includes a custom URDF with an added bowl model at the base of the robot for simulated interaction tasks.
 
