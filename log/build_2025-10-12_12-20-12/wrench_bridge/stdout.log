@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/wrench_bridge/wrench_bridge.egg-info
+writing ../../build/wrench_bridge/wrench_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/wrench_bridge/wrench_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/wrench_bridge/wrench_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/wrench_bridge/wrench_bridge.egg-info/requires.txt
+writing top-level names to ../../build/wrench_bridge/wrench_bridge.egg-info/top_level.txt
+writing manifest file '../../build/wrench_bridge/wrench_bridge.egg-info/SOURCES.txt'
+reading manifest file '../../build/wrench_bridge/wrench_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/wrench_bridge/wrench_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nithish/ur10e_ws/build/wrench_bridge/build
+creating /home/nithish/ur10e_ws/build/wrench_bridge/build/lib
+creating /home/nithish/ur10e_ws/build/wrench_bridge/build/lib/wrench_bridge
+copying wrench_bridge/__init__.py -> /home/nithish/ur10e_ws/build/wrench_bridge/build/lib/wrench_bridge
+copying wrench_bridge/wrench_bridge_node.py -> /home/nithish/ur10e_ws/build/wrench_bridge/build/lib/wrench_bridge
+running install
+running install_lib
+creating /home/nithish/ur10e_ws/install/wrench_bridge/lib/python3.10/site-packages/wrench_bridge
+copying /home/nithish/ur10e_ws/build/wrench_bridge/build/lib/wrench_bridge/__init__.py -> /home/nithish/ur10e_ws/install/wrench_bridge/lib/python3.10/site-packages/wrench_bridge
+copying /home/nithish/ur10e_ws/build/wrench_bridge/build/lib/wrench_bridge/wrench_bridge_node.py -> /home/nithish/ur10e_ws/install/wrench_bridge/lib/python3.10/site-packages/wrench_bridge
+byte-compiling /home/nithish/ur10e_ws/install/wrench_bridge/lib/python3.10/site-packages/wrench_bridge/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nithish/ur10e_ws/install/wrench_bridge/lib/python3.10/site-packages/wrench_bridge/wrench_bridge_node.py to wrench_bridge_node.cpython-310.pyc
+running install_data
+creating /home/nithish/ur10e_ws/install/wrench_bridge/share/ament_index
+creating /home/nithish/ur10e_ws/install/wrench_bridge/share/ament_index/resource_index
+creating /home/nithish/ur10e_ws/install/wrench_bridge/share/ament_index/resource_index/packages
+copying resource/wrench_bridge -> /home/nithish/ur10e_ws/install/wrench_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/nithish/ur10e_ws/install/wrench_bridge/share/wrench_bridge
+running install_egg_info
+Copying ../../build/wrench_bridge/wrench_bridge.egg-info to /home/nithish/ur10e_ws/install/wrench_bridge/lib/python3.10/site-packages/wrench_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+Installing wrench_bridge_node script to /home/nithish/ur10e_ws/install/wrench_bridge/lib/wrench_bridge
+writing list of installed files to '/home/nithish/ur10e_ws/build/wrench_bridge/install.log'

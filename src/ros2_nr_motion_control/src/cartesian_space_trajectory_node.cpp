@@ -1,7 +1,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/string.hpp>
 #include <trajectory_msgs/msg/joint_trajectory_point.hpp>
-
+#include <trajectory_msgs/msg/joint_trajectory.hpp>
 #include <urdf/model.h>
 #include <kdl_parser/kdl_parser.hpp>
 #include <kdl/tree.hpp>
@@ -32,7 +32,7 @@ public:
       inward_distance_(0.2),    // 20 cm toward center
       radial_step_(0.002),      // 2 mm per step
       line_step_(0.002),        // 2 mm per step for vertical move
-      line_target_(0.1),        // 10 cm up
+      line_target_(0.05),        // 5 cm up
       publish_time_s_(0.0)
     {
         RCLCPP_INFO(this->get_logger(), "Waiting for /robot_description...");

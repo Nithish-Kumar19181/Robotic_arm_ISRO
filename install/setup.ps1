@@ -26,7 +26,7 @@ _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nithish/robotic_arm_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nithish/rviz2_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nithish/ws_moveit2/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/nithish/tesseract_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/nithish/ur5e_supervisory_control/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

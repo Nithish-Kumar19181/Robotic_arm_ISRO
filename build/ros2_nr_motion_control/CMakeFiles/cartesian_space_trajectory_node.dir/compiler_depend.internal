@@ -697,6 +697,13 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+ /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+ /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+ /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
+ /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp
  /opt/ros/humble/include/urdf/urdf/model.h
  /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h
  /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h
@@ -952,7 +959,6 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
  /usr/include/kdl/frames.hpp
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
@@ -963,7 +969,6 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp

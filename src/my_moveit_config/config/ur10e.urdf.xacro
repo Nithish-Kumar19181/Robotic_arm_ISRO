@@ -12,7 +12,7 @@
   <!-- create link fixed to the "world" -->
   <link name="world"/>
 
-  <!-- <ros2_control name="ur10e" type="system">
+  <ros2_control name="ur10e" type="system">
     <hardware>
       <plugin>ur_robot_driver/URPositionHardwareInterface</plugin>
       <param name="robot_ip">0.0.0.0</param>
@@ -312,7 +312,7 @@
       <state_interface name="get_version_build"/>
       <state_interface name="get_version_bugfix"/>
     </gpio>
-  </ros2_control> -->
+  </ros2_control>
 
   <ros2_control name="ur10e" type="system">
   <hardware>
@@ -575,43 +575,6 @@
     <dynamics damping="0" friction="0"/>
   </joint>
 
-  <!-- <link name="bowl_link">
-    <visual>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://ur_description/meshes/ur10e/collision/bowl.stl" scale="0.002 0.002 0.002"/>
-      </geometry>
-    </visual>
-    <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
-      <geometry>
-        <mesh filename="package://ur_description/meshes/ur10e/collision/bowl.stl" scale="0.002 0.002 0.002"/>
-      </geometry>
-    </collision>
-    <inertial>
-      <mass value="0.1"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
-    </inertial>
-  </link>
-
-  <joint name="base_to_bowl_joint" type="fixed">
-    <parent link="base_link"/>
-    <child link="bowl_link"/>
-    <origin rpy="0 0 0" xyz="0 0 0"/>
-  </joint>
-  <link name="ft_frame"/>
-  <joint name="wrist_3_link-ft_frame" type="fixed">
-    <parent link="wrist_3_link"/>
-    <child link="ft_frame"/>
-    <origin rpy="3.141592653589793 0 0" xyz="0 0 0"/>
-  </joint>
-  <link name="base"/>
-  <joint name="base_link-base_fixed_joint" type="fixed">
-    <origin rpy="0 0 3.141592653589793" xyz="0 0 0"/>
-    <parent link="base_link"/>
-    <child link="base"/>
-  </joint> -->
-
   <link name="flange"/>
   <joint name="wrist_3-flange" type="fixed">
     <parent link="wrist_3_link"/>
@@ -624,6 +587,30 @@
     <origin rpy="1.5707963267948966 0 1.5707963267948966" xyz="0 0 0"/>
     <parent link="flange"/>
     <child link="tool0"/>
+  </joint>
+
+    <link name="force_link">
+    <inertial>
+      <mass value="0.1"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="1e-5" iyy="1e-5" izz="1e-5" ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0.01" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.02" length="0.02"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.6 0.6 0.6 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Fixed joint connecting wrist_3_link to force_link -->
+  <joint name="tool0_to_force" type="fixed">
+    <parent link="tool0"/>
+    <child link="force_link"/>
+    <origin xyz="0 0 -0.1168" rpy="0 0 0"/>
   </joint>
 
 </robot>

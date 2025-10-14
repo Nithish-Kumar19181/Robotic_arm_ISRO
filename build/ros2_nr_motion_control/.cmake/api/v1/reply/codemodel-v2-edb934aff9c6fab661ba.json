@@ -1,0 +1,175 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6557049d48eab866f09e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-a2408fe1a73b92c5e636.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/humble/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_nr_motion_control",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cartesian_space_trajectory_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cartesian_space_trajectory_node-221dee4554a96b6e138d.json",
+					"name" : "cartesian_space_trajectory_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-347615385512e7c2084c.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-bec6890688dbaa980a5d.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "helix_trajectory_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-helix_trajectory_publisher-ef372a2394b76741bcc3.json",
+					"name" : "helix_trajectory_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_angle_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_angle_publisher-53d81893334210154502.json",
+					"name" : "joint_angle_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_sine_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_sine_publisher-db58f018bac865a5e91f.json",
+					"name" : "joint_sine_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joint_space_trajectory_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joint_space_trajectory_node-6366771badd86057b5da.json",
+					"name" : "joint_space_trajectory_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_nr_motion_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_nr_motion_control_uninstall-1fde49174b3df6c6ce5e.json",
+					"name" : "ros2_nr_motion_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_robot_arm_motion_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_robot_arm_motion_planner-139de02cb44eea0f4109.json",
+					"name" : "test_robot_arm_motion_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b22c0c740689392efdba.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nithish/ur10e_ws/build/ros2_nr_motion_control",
+		"source" : "/home/nithish/ur10e_ws/src/ros2_nr_motion_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

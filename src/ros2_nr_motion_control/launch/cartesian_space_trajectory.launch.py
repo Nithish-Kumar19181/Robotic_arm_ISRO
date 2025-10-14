@@ -4,24 +4,46 @@ from launch.actions import IncludeLaunchDescription, TimerAction
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
 import os
+import xacro
 
 def generate_launch_description():
 
-    # Specify directory and path to file within package
+    ur_type = 'ur10e'
+
+    # 1. Define the path to YOUR custom URDF file.
+    robot_description_path = os.path.join(
+        get_package_share_directory('my_moveit_config'),
+        'config',
+        f'{ur_type}.urdf.xacro'
+    )
+
+    # 2. Process your file into an XML string.
+    robot_description_config = xacro.process_file(robot_description_path)
+    robot_description_content = robot_description_config.toxml()
+
+    # Get paths to other necessary files
     ur_simulation_gazebo_pkg_dir = get_package_share_directory('ur_simulation_gazebo')
-    ur_simulation_gazebo_launch_file_subpath = 'launch/ur_sim_control.launch.py'
-    rviz_config_file = os.path.join(get_package_share_directory('ros2_nr_motion_control'), "rviz", "view_robot.rviz")
+    ur_sim_launch_file = os.path.join(ur_simulation_gazebo_pkg_dir, 'launch', 'ur_sim_control.launch.py')
+    
+    ur_robot_driver_pkg_dir = get_package_share_directory('ur_robot_driver')
+    ur_driver_launch_file = os.path.join(ur_robot_driver_pkg_dir,'lauch','ur_control.launch.py')
+    
+    rviz_config_file = os.path.join(
+        get_package_share_directory('ros2_nr_motion_control'),
+        "rviz",
+        "view_robot.rviz"
+    )
 
     return LaunchDescription([
 
         IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(ur_simulation_gazebo_pkg_dir, ur_simulation_gazebo_launch_file_subpath)
-            ),
-            launch_arguments={'ur_type': 'ur10e',
-                              'launch_rviz': 'False'
-                              }.items(),
+            PythonLaunchDescriptionSource(ur_sim_launch_file),
+            launch_arguments={
+                'ur_type': ur_type,
+                'launch_rviz': 'False', 
+            }.items(),
         ),
+
 
         Node(
             package="rviz2",
@@ -31,9 +53,8 @@ def generate_launch_description():
             arguments=["-d", rviz_config_file],
         ),
 
-        # Wait 2 seconds for the controller to become available
         TimerAction(
-            period=2.0,
+            period=0.0,
             actions=[
                 Node(
                     package='ros2_nr_motion_control',

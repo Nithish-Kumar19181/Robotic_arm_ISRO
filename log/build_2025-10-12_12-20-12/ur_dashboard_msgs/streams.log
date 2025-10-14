@@ -1,0 +1,687 @@
+[0.044s] Invoking command in '/home/nithish/ur10e_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/ur10e_ws/install/wrench_bridge:/home/nithish/ur10e_ws/install/servo_control:/home/nithish/ur10e_ws/install/my_bridge_pkg:/home/nithish/ws_moveit2/install/moveit_configs_utils:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake /home/nithish/ur10e_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/nithish/ur10e_ws/install/ur_dashboard_msgs
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.346s] -- The CXX compiler identification is GNU 11.4.0
+[0.367s] -- Detecting C compiler ABI info
+[0.551s] -- Detecting C compiler ABI info - done
+[0.569s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.570s] -- Detecting C compile features
+[0.570s] -- Detecting C compile features - done
+[0.578s] -- Detecting CXX compiler ABI info
+[0.768s] -- Detecting CXX compiler ABI info - done
+[0.786s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.787s] -- Detecting CXX compile features
+[0.788s] -- Detecting CXX compile features - done
+[0.805s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.187s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.532s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.614s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.786s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.937s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[2.796s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.789s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.838s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.854s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.919s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.919s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.920s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.920s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.963s] -- Found PythonExtra: .so  
+[4.142s] -- Configuring done
+[4.242s] -- Generating done
+[4.266s] -- Build files have been written to: /home/nithish/ur10e_ws/build/ur_dashboard_msgs
+[4.282s] Invoked command in '/home/nithish/ur10e_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/ur10e_ws/install/wrench_bridge:/home/nithish/ur10e_ws/install/servo_control:/home/nithish/ur10e_ws/install/my_bridge_pkg:/home/nithish/ws_moveit2/install/moveit_configs_utils:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake /home/nithish/ur10e_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DCMAKE_INSTALL_PREFIX=/home/nithish/ur10e_ws/install/ur_dashboard_msgs
+[4.287s] Invoking command in '/home/nithish/ur10e_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/ur10e_ws/install/wrench_bridge:/home/nithish/ur10e_ws/install/servo_control:/home/nithish/ur10e_ws/install/my_bridge_pkg:/home/nithish/ws_moveit2/install/moveit_configs_utils:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ur_dashboard_msgs -- -j12 -l12
+[4.393s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.425s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.452s] [  1%] Built target ament_cmake_python_copy_ur_dashboard_msgs
+[5.100s] running egg_info
+[5.101s] creating ur_dashboard_msgs.egg-info
+[5.102s] writing ur_dashboard_msgs.egg-info/PKG-INFO
+[5.102s] writing dependency_links to ur_dashboard_msgs.egg-info/dependency_links.txt
+[5.102s] writing top-level names to ur_dashboard_msgs.egg-info/top_level.txt
+[5.103s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[5.107s] reading manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[5.108s] writing manifest file 'ur_dashboard_msgs.egg-info/SOURCES.txt'
+[5.175s] [  1%] Built target ament_cmake_python_build_ur_dashboard_msgs_egg
+[7.346s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c.o[0m
+[7.346s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c.o[0m
+[7.347s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/program_state__functions.c.o[0m
+[7.347s] [  3%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/add_to_log__functions.c.o[0m
+[7.348s] [  4%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__functions.c.o[0m
+[7.348s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c.o[0m
+[7.348s] [  5%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/load__functions.c.o[0m
+[7.348s] [  6%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_program_running__functions.c.o[0m
+[7.349s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_program_state__functions.c.o[0m
+[7.349s] [  7%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c.o[0m
+[7.352s] [  8%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/msg/detail/robot_mode__functions.c.o[0m
+[7.512s] [  9%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/popup__functions.c.o[0m
+[7.523s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/raw_request__functions.c.o[0m
+[7.535s] [ 10%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.c.o[0m
+[7.560s] [ 11%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_c.dir/rosidl_generator_c/ur_dashboard_msgs/action/detail/set_mode__functions.c.o[0m
+[7.947s] [ 11%] Built target ur_dashboard_msgs__cpp
+[7.965s] [ 12%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_generator_c.so[0m
+[7.977s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.982s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.982s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.107s] [ 14%] Built target ur_dashboard_msgs__rosidl_generator_c
+[8.153s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.153s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.154s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.876s] [ 18%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[10.893s] [ 19%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[10.898s] [ 19%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[10.913s] [ 20%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[10.918s] [ 21%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[10.927s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[10.930s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[11.298s] [ 22%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/program_state__type_support.cpp.o[0m
+[11.507s] [ 23%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/robot_mode__type_support.cpp.o[0m
+[11.670s] [ 24%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/msg/safety_mode__type_support.cpp.o[0m
+[11.867s] [ 24%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/add_to_log__type_support.cpp.o[0m
+[11.900s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_loaded_program__type_support.cpp.o[0m
+[12.085s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[12.102s] [ 27%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_program_state__type_support.cpp.o[0m
+[12.142s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_robot_mode__type_support.cpp.o[0m
+[12.201s] [ 28%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[12.218s] [ 29%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[12.218s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[12.245s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[12.287s] [ 30%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/get_safety_mode__type_support.cpp.o[0m
+[12.369s] [ 31%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_running__type_support.cpp.o[0m
+[12.407s] [ 32%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[12.436s] [ 33%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_program_saved__type_support.cpp.o[0m
+[12.506s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/srv/is_in_remote_control__type_support.cpp.o[0m
+[12.570s] [ 34%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/load__type_support.cpp.o[0m
+[12.706s] [ 35%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/popup__type_support.cpp.o[0m
+[12.875s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/raw_request__type_support.cpp.o[0m
+[13.010s] [ 36%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/srv/is_in_remote_control__type_support.cpp.o[0m
+[13.128s] [ 37%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp.o[0m
+[13.150s] [ 38%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[13.355s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp.o[0m
+[13.414s] [ 39%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp.o[0m
+[13.499s] [ 40%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_c.so[0m
+[13.541s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp.o[0m
+[13.598s] [ 41%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ur_dashboard_msgs/action/set_mode__type_support.cpp.o[0m
+[13.692s] [ 42%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp.o[0m
+[13.699s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp.o[0m
+[13.761s] [ 43%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp.o[0m
+[13.795s] [ 43%] Built target ur_dashboard_msgs__rosidl_typesupport_c
+[13.937s] [ 44%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp.o[0m
+[13.966s] [ 45%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/program_state__type_support.c.o[0m
+[14.181s] [ 45%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c.o[0m
+[14.448s] [ 46%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c.o[0m
+[14.490s] [ 47%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/program_state__type_support_c.cpp.o[0m
+[14.574s] [ 48%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/program_state__type_support.cpp.o[0m
+[14.709s] [ 49%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c.o[0m
+[15.011s] [ 50%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c.o[0m
+[15.034s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/robot_mode__type_support_c.cpp.o[0m
+[15.150s] [ 50%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c.o[0m
+[15.262s] [ 51%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c.o[0m
+[15.427s] [ 52%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp.o[0m
+[15.547s] [ 53%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c.o[0m
+[15.561s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/robot_mode__type_support.cpp.o[0m
+[15.589s] [ 54%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp.o[0m
+[15.753s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/msg/detail/safety_mode__type_support_c.cpp.o[0m
+[15.815s] [ 55%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c.o[0m
+[15.841s] [ 55%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/msg/detail/dds_fastrtps/safety_mode__type_support.cpp.o[0m
+[15.959s] [ 56%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c.o[0m
+[15.979s] [ 57%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/add_to_log__type_support_c.cpp.o[0m
+[16.033s] [ 58%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/load__type_support.c.o[0m
+[16.063s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/load__type_support.cpp.o[0m
+[16.185s] [ 60%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_cpp.so[0m
+[16.285s] [ 60%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/popup__type_support.c.o[0m
+[16.294s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/popup__type_support.cpp.o[0m
+[16.478s] [ 61%] Built target ur_dashboard_msgs__rosidl_typesupport_cpp
+[16.478s] [ 62%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/raw_request__type_support.c.o[0m
+[16.517s] [ 62%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support_c.cpp.o[0m
+[16.632s] [ 63%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.c.o[0m
+[16.783s] [ 64%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ur_dashboard_msgs/action/detail/set_mode__type_support.c.o[0m
+[16.945s] [ 65%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_program_state__type_support_c.cpp.o[0m
+[17.112s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/add_to_log__type_support.cpp.o[0m
+[17.208s] [ 66%] [32m[1mLinking C shared library libur_dashboard_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.423s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support_c.cpp.o[0m
+[17.526s] [ 67%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c
+[17.595s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp.o[0m
+[17.646s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.cpp.o[0m
+[17.697s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp.o[0m
+[17.720s] [ 69%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support_c.cpp.o[0m
+[17.965s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_running__type_support_c.cpp.o[0m
+[18.064s] [ 71%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_program_saved__type_support_c.cpp.o[0m
+[18.221s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_loaded_program__type_support.cpp.o[0m
+[18.309s] [ 72%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_program_state__type_support.cpp.o[0m
+[18.450s] [ 73%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_robot_mode__type_support.cpp.o[0m
+[18.865s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/get_safety_mode__type_support.cpp.o[0m
+[18.997s] [ 74%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_running__type_support.cpp.o[0m
+[19.097s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/load__type_support_c.cpp.o[0m
+[19.298s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_program_saved__type_support.cpp.o[0m
+[19.359s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/load__type_support.cpp.o[0m
+[19.620s] [ 77%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/popup__type_support_c.cpp.o[0m
+[19.665s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/popup__type_support.cpp.o[0m
+[19.875s] [ 78%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/raw_request__type_support.cpp.o[0m
+[20.239s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/raw_request__type_support_c.cpp.o[0m
+[20.415s] [ 80%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/srv/detail/dds_fastrtps/is_in_remote_control__type_support.cpp.o[0m
+[20.463s] [ 81%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ur_dashboard_msgs/action/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[20.562s] [ 82%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[20.960s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support_c.cpp.o[0m
+[21.138s] [ 83%] [32mBuilding CXX object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ur_dashboard_msgs/action/detail/set_mode__type_support_c.cpp.o[0m
+[21.223s] [ 83%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_cpp
+[22.163s] [ 84%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[22.237s] [ 84%] [32m[1mLinking CXX shared library libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.321s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c
+[22.397s] [ 84%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp
+[22.445s] [ 84%] Built target ur_dashboard_msgs
+[22.492s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[26.166s] [ 85%] Built target ur_dashboard_msgs__py
+[26.223s] [ 86%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_safety_mode_s.c.o[0m
+[26.224s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_add_to_log_s.c.o[0m
+[26.224s] [ 88%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_robot_mode_s.c.o[0m
+[26.224s] [ 89%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_program_state_s.c.o[0m
+[26.225s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_robot_mode_s.c.o[0m
+[26.228s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/msg/_program_state_s.c.o[0m
+[26.230s] [ 90%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_loaded_program_s.c.o[0m
+[26.230s] [ 91%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_running_s.c.o[0m
+[26.233s] [ 92%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_program_saved_s.c.o[0m
+[26.237s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_get_safety_mode_s.c.o[0m
+[26.237s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_popup_s.c.o[0m
+[26.237s] [ 93%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_load_s.c.o[0m
+[26.626s] [ 94%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_is_in_remote_control_s.c.o[0m
+[26.631s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/srv/_raw_request_s.c.o[0m
+[26.632s] [ 95%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_generator_py.dir/rosidl_generator_py/ur_dashboard_msgs/action/_set_mode_s.c.o[0m
+[26.901s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so[0m
+[26.986s] [ 96%] Built target ur_dashboard_msgs__rosidl_generator_py
+[27.038s] [ 97%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[27.041s] [ 98%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[27.041s] [ 99%] [32mBuilding C object CMakeFiles/ur_dashboard_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[27.419s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[27.466s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[27.480s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[27.527s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_c__pyext
+[27.576s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_fastrtps_c__pyext
+[27.584s] [100%] Built target ur_dashboard_msgs__rosidl_typesupport_introspection_c__pyext
+[27.606s] Invoked command in '/home/nithish/ur10e_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/ur10e_ws/install/wrench_bridge:/home/nithish/ur10e_ws/install/servo_control:/home/nithish/ur10e_ws/install/my_bridge_pkg:/home/nithish/ws_moveit2/install/moveit_configs_utils:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ur_dashboard_msgs -- -j12 -l12
+[27.608s] Invoking command in '/home/nithish/ur10e_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/ur10e_ws/install/wrench_bridge:/home/nithish/ur10e_ws/install/servo_control:/home/nithish/ur10e_ws/install/my_bridge_pkg:/home/nithish/ws_moveit2/install/moveit_configs_utils:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --install /home/nithish/ur10e_ws/build/ur_dashboard_msgs
+[27.627s] -- Install configuration: ""
+[27.627s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/rosidl_interfaces/ur_dashboard_msgs
+[27.628s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[27.628s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[27.628s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.h
+[27.628s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[27.628s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.h
+[27.628s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.h
+[27.628s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__functions.c
+[27.628s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.h
+[27.628s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__functions.c
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__functions.c
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_c__visibility_control.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_in_remote_control.h
+[27.629s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.h
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.c
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.c
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.h
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.h
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.h
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.h
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.c
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.c
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.h
+[27.630s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__struct.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.c
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.c
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__functions.h
+[27.631s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.h
+[27.632s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__functions.c
+[27.632s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__functions.h
+[27.632s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.h
+[27.632s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.h
+[27.632s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.h
+[27.632s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__functions.c
+[27.632s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__functions.h
+[27.632s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__functions.h
+[27.633s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.h
+[27.633s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.h
+[27.633s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.h
+[27.633s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.h
+[27.633s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.h
+[27.633s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.c
+[27.633s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__functions.c
+[27.634s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__functions.h
+[27.634s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.h
+[27.634s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__functions.c
+[27.634s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__functions.h
+[27.634s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__functions.h
+[27.634s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.h
+[27.635s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.h
+[27.635s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.h
+[27.635s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.h
+[27.635s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.h
+[27.635s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.h
+[27.635s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.h
+[27.635s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.h
+[27.636s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.h
+[27.636s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[27.636s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[27.636s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.h
+[27.636s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.h
+[27.636s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.h
+[27.636s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__functions.c
+[27.637s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.h
+[27.637s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.sh
+[27.637s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/library_path.dsv
+[27.637s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so
+[27.637s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_c.so" to ""
+[27.637s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[27.637s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[27.638s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.638s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[27.638s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_c.h
+[27.638s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_c.h
+[27.638s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_c.h
+[27.638s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[27.638s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[27.639s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_c.h
+[27.639s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_c.h
+[27.639s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_c.h
+[27.639s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_c.h
+[27.639s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_fastrtps_c.h
+[27.639s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_c.h
+[27.640s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_c.h
+[27.640s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_c.h
+[27.640s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_c.h
+[27.640s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_c.h
+[27.640s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_c.h
+[27.640s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[27.640s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[27.640s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[27.641s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so
+[27.641s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[27.641s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[27.641s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[27.641s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.641s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[27.641s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.c
+[27.642s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_c.h
+[27.642s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.c
+[27.642s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_c.h
+[27.642s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_c.h
+[27.642s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.c
+[27.642s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[27.643s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[27.643s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.c
+[27.643s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_c.h
+[27.643s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_c.h
+[27.643s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_c.h
+[27.643s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_introspection_c.h
+[27.644s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_c.h
+[27.644s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.c
+[27.644s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_c.h
+[27.644s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.c
+[27.644s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.c
+[27.644s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.c
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.c
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.c
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_c.h
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_c.h
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_c.h
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.c
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.c
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.c
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.c
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_c.h
+[27.645s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_c.h
+[27.645s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[27.645s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[27.646s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.c
+[27.646s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_c.h
+[27.646s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so
+[27.646s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_c.so" to ""
+[27.646s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so
+[27.646s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_c.so" to ""
+[27.646s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[27.646s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[27.646s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/safety_mode.hpp
+[27.646s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[27.646s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__traits.hpp
+[27.646s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__struct.hpp
+[27.646s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__builder.hpp
+[27.646s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__struct.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__traits.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__builder.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__builder.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__traits.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__struct.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/robot_mode.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/program_state.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[27.647s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/add_to_log.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_saved.hpp
+[27.647s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_loaded_program.hpp
+[27.648s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__struct.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__builder.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__traits.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__struct.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__traits.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__builder.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__traits.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__traits.hpp
+[27.648s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__builder.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__traits.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__struct.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__struct.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__struct.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__traits.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__builder.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__struct.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__struct.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__builder.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__traits.hpp
+[27.649s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__builder.hpp
+[27.650s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.hpp
+[27.650s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__builder.hpp
+[27.650s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__builder.hpp
+[27.650s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__struct.hpp
+[27.650s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__builder.hpp
+[27.650s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__struct.hpp
+[27.650s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__struct.hpp
+[27.650s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__traits.hpp
+[27.650s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__traits.hpp
+[27.650s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.hpp
+[27.651s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.hpp
+[27.651s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__builder.hpp
+[27.651s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.hpp
+[27.651s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.hpp
+[27.651s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__struct.hpp
+[27.651s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__traits.hpp
+[27.651s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__builder.hpp
+[27.651s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__traits.hpp
+[27.651s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/popup.hpp
+[27.652s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/load.hpp
+[27.652s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/raw_request.hpp
+[27.652s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_program_state.hpp
+[27.652s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_robot_mode.hpp
+[27.652s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/get_safety_mode.hpp
+[27.652s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_in_remote_control.hpp
+[27.652s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/is_program_running.hpp
+[27.652s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[27.653s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[27.653s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__struct.hpp
+[27.653s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__traits.hpp
+[27.653s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__builder.hpp
+[27.654s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.hpp
+[27.654s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/set_mode.hpp
+[27.654s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[27.654s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[27.654s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.654s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[27.654s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[27.655s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/dds_fastrtps
+[27.655s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[27.655s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[27.655s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[27.655s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[27.655s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_fastrtps_cpp.hpp
+[27.656s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/dds_fastrtps
+[27.656s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_fastrtps_cpp.hpp
+[27.656s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_fastrtps_cpp.hpp
+[27.656s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[27.656s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_fastrtps_cpp.hpp
+[27.656s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_fastrtps_cpp.hpp
+[27.657s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_fastrtps_cpp.hpp
+[27.657s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[27.657s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_fastrtps_cpp.hpp
+[27.657s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_fastrtps_cpp.hpp
+[27.657s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_fastrtps_cpp.hpp
+[27.657s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[27.658s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[27.658s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/dds_fastrtps
+[27.658s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[27.658s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so
+[27.659s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.659s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs
+[27.659s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg
+[27.659s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail
+[27.659s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__rosidl_typesupport_introspection_cpp.hpp
+[27.660s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__type_support.cpp
+[27.660s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[27.660s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/safety_mode__type_support.cpp
+[27.660s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[27.660s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/msg/detail/program_state__type_support.cpp
+[27.661s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv
+[27.661s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail
+[27.661s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__rosidl_typesupport_introspection_cpp.hpp
+[27.661s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__type_support.cpp
+[27.662s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__type_support.cpp
+[27.662s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__rosidl_typesupport_introspection_cpp.hpp
+[27.662s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__rosidl_typesupport_introspection_cpp.hpp
+[27.662s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__rosidl_typesupport_introspection_cpp.hpp
+[27.662s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__rosidl_typesupport_introspection_cpp.hpp
+[27.663s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_robot_mode__type_support.cpp
+[27.663s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__type_support.cpp
+[27.663s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_safety_mode__type_support.cpp
+[27.663s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_running__rosidl_typesupport_introspection_cpp.hpp
+[27.663s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_program_saved__type_support.cpp
+[27.664s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/add_to_log__type_support.cpp
+[27.664s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_loaded_program__rosidl_typesupport_introspection_cpp.hpp
+[27.664s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__rosidl_typesupport_introspection_cpp.hpp
+[27.664s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/raw_request__type_support.cpp
+[27.664s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__rosidl_typesupport_introspection_cpp.hpp
+[27.665s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/get_program_state__type_support.cpp
+[27.665s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__rosidl_typesupport_introspection_cpp.hpp
+[27.665s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/popup__type_support.cpp
+[27.665s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/is_in_remote_control__type_support.cpp
+[27.665s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/srv/detail/load__rosidl_typesupport_introspection_cpp.hpp
+[27.666s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action
+[27.666s] -- Up-to-date: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail
+[27.666s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__type_support.cpp
+[27.667s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/include/ur_dashboard_msgs/ur_dashboard_msgs/action/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[27.667s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so
+[27.667s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[27.667s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so
+[27.668s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_typesupport_cpp.so" to ""
+[27.668s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.sh
+[27.668s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/pythonpath.dsv
+[27.668s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.9.0-py3.10.egg-info
+[27.669s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.9.0-py3.10.egg-info/top_level.txt
+[27.669s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.9.0-py3.10.egg-info/PKG-INFO
+[27.669s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.9.0-py3.10.egg-info/dependency_links.txt
+[27.669s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs-2.9.0-py3.10.egg-info/SOURCES.txt
+[27.669s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs
+[27.669s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_c.c
+[27.669s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg
+[27.669s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode_s.c
+[27.669s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state_s.c
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode_s.c
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load_s.c
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_in_remote_control.py
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state_s.c
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved_s.c
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_in_remote_control_s.c
+[27.670s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request_s.c
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program_s.c
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode_s.c
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup_s.c
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running_s.c
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode_s.c
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log_s.c
+[27.671s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py
+[27.672s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py
+[27.672s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/libur_dashboard_msgs__rosidl_generator_py.so
+[27.672s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.672s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action
+[27.672s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py
+[27.672s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py
+[27.672s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode_s.c
+[27.672s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.672s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/_ur_dashboard_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[27.771s] Listing '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs'...
+[27.771s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/__init__.py'...
+[27.771s] Listing '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action'...
+[27.771s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/__init__.py'...
+[27.771s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/action/_set_mode.py'...
+[27.771s] Listing '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg'...
+[27.771s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/__init__.py'...
+[27.771s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_program_state.py'...
+[27.772s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_robot_mode.py'...
+[27.772s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/msg/_safety_mode.py'...
+[27.772s] Listing '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv'...
+[27.772s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/__init__.py'...
+[27.772s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_add_to_log.py'...
+[27.772s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_loaded_program.py'...
+[27.772s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_program_state.py'...
+[27.772s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_robot_mode.py'...
+[27.772s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_get_safety_mode.py'...
+[27.773s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_in_remote_control.py'...
+[27.773s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_running.py'...
+[27.773s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_is_program_saved.py'...
+[27.773s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_load.py'...
+[27.773s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_popup.py'...
+[27.773s] Compiling '/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/srv/_raw_request.py'...
+[27.778s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[27.779s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.779s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[27.780s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.780s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[27.780s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages/ur_dashboard_msgs/ur_dashboard_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[27.780s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so
+[27.781s] -- Set runtime path of "/home/nithish/ur10e_ws/install/ur_dashboard_msgs/lib/libur_dashboard_msgs__rosidl_generator_py.so" to ""
+[27.781s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.idl
+[27.781s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.idl
+[27.781s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.idl
+[27.782s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.idl
+[27.782s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.idl
+[27.782s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.idl
+[27.782s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.idl
+[27.782s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.idl
+[27.782s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.idl
+[27.782s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.idl
+[27.783s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.idl
+[27.783s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.idl
+[27.783s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.idl
+[27.783s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl.idl
+[27.783s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.idl
+[27.783s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/ProgramState.msg
+[27.783s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/RobotMode.msg
+[27.783s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/msg/SafetyMode.msg
+[27.784s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog.srv
+[27.784s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Request.msg
+[27.784s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/AddToLog_Response.msg
+[27.784s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram.srv
+[27.784s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Request.msg
+[27.784s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetLoadedProgram_Response.msg
+[27.784s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState.srv
+[27.785s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Request.msg
+[27.785s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetProgramState_Response.msg
+[27.785s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode.srv
+[27.785s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Request.msg
+[27.785s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetRobotMode_Response.msg
+[27.785s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode.srv
+[27.785s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Request.msg
+[27.785s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/GetSafetyMode_Response.msg
+[27.786s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning.srv
+[27.786s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Request.msg
+[27.786s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramRunning_Response.msg
+[27.786s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved.srv
+[27.786s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Request.msg
+[27.786s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsProgramSaved_Response.msg
+[27.786s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load.srv
+[27.786s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Request.msg
+[27.787s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Load_Response.msg
+[27.787s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup.srv
+[27.787s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Request.msg
+[27.787s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/Popup_Response.msg
+[27.787s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest.srv
+[27.787s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Request.msg
+[27.787s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/RawRequest_Response.msg
+[27.788s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl.srv
+[27.788s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl_Request.msg
+[27.788s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/srv/IsInRemoteControl_Response.msg
+[27.788s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/action/SetMode.action
+[27.788s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/package_run_dependencies/ur_dashboard_msgs
+[27.788s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/parent_prefix_path/ur_dashboard_msgs
+[27.788s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.sh
+[27.788s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/ament_prefix_path.dsv
+[27.789s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.sh
+[27.789s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/environment/path.dsv
+[27.789s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.bash
+[27.789s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.sh
+[27.789s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.zsh
+[27.789s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/local_setup.dsv
+[27.789s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv
+[27.790s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ament_index/resource_index/packages/ur_dashboard_msgs
+[27.790s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport.cmake
+[27.790s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cExport-noconfig.cmake
+[27.790s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[27.790s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.790s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport.cmake
+[27.791s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.791s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport.cmake
+[27.791s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[27.791s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_cppExport.cmake
+[27.791s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.791s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.791s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[27.792s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.792s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport.cmake
+[27.792s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[27.792s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport.cmake
+[27.792s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/export_ur_dashboard_msgs__rosidl_generator_pyExport-noconfig.cmake
+[27.792s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake-extras.cmake
+[27.792s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.793s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.793s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[27.793s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[27.793s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.793s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.793s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig.cmake
+[27.793s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake/ur_dashboard_msgsConfig-version.cmake
+[27.794s] -- Installing: /home/nithish/ur10e_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.xml
+[27.798s] Invoked command in '/home/nithish/ur10e_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/ur10e_ws/install/wrench_bridge:/home/nithish/ur10e_ws/install/servo_control:/home/nithish/ur10e_ws/install/my_bridge_pkg:/home/nithish/ws_moveit2/install/moveit_configs_utils:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --install /home/nithish/ur10e_ws/build/ur_dashboard_msgs

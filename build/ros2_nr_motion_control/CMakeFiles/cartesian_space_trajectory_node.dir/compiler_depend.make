@@ -696,6 +696,13 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp \
+  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp \
+  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp \
   /opt/ros/humble/include/urdf/urdf/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
   /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -951,7 +958,6 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
   /usr/include/kdl/frames.hpp \
   /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp \
   /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
@@ -962,7 +968,6 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
   /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
   /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp \
   /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
@@ -1164,12 +1169,6 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
 
 /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
-
-/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
-
-/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
-
 /usr/include/eigen3/Eigen/src/LU/FullPivLU.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
@@ -1276,6 +1275,16 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
 
 /opt/ros/humble/include/urdf/urdf/model.h:
 
+/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp:
+
+/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
+
+/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp:
+
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp:
 
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp:
@@ -1351,6 +1360,8 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__type_support.hpp:
+
+/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
@@ -2622,6 +2633,8 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
 
+/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
@@ -2695,6 +2708,8 @@ CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_no
 /usr/include/wctype.h:
 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
+
+/opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 

@@ -1,8 +1,0 @@
-[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:[m[K In constructor ‘[01m[KHelixTrajectoryPublisher::HelixTrajectoryPublisher(const rclcpp::NodeOptions&)[m[K’:
-[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:28:24:[m[K [01;31m[Kerror: [m[K‘[01m[KCircleTrajectoryPublisher[m[K’ has not been declared
-   28 |             std::bind(&[01;31m[KCircleTrajectoryPublisher[m[K::jointStateCallback, this, std::placeholders::_1));
-      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/helix_trajectory_publisher.dir/build.make:76: CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:269: CMakeFiles/helix_trajectory_publisher.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

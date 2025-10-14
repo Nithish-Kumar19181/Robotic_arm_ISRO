@@ -1,1 +1,39 @@
-/home/nithish/ur10e_ws/src/ros2_nr_motion_control/package.xml
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ros2_nr_motion_control</name>
+  <version>0.0.0</version>
+  <description>C++ Helix planner for a UR robot using KDL and ros2_control.</description>
+  <maintainer email="nithish@todo.todo">nithish</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>geometry_msgs</depend>  <!-- ADD THIS -->
+  <depend>urdf</depend>
+  <depend>action_msgs</depend>
+  <depend>control_msgs</depend>
+  <depend>rclcpp_action</depend>
+  <depend>orocos_kdl_vendor</depend>
+  <depend>orocos_kdl</depend>
+  <depend>kdl_parser</depend>
+  <depend>visualization_msgs</depend>
+  <depend>tf2</depend>  <!-- ADD THIS -->
+  <depend>tf2_geometry_msgs</depend>  <!-- ADD THIS -->
+
+  <exec_depend>ur_moveit_config</exec_depend>
+  <exec_depend>ur_simulation_gazebo</exec_depend>
+  <exec_depend>moveit_servo</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
