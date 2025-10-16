@@ -684,20 +684,38 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp \
-  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
-  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
-  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
-  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp \
-  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/urdf/urdf/model.h \
+  /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
+  /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
+  /opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h \
+  /opt/ros/humble/include/urdfdom_headers/urdf_model/pose.h \
+  /opt/ros/humble/include/urdfdom_headers/urdf_exception/exception.h \
+  /opt/ros/humble/include/urdfdom_headers/urdf_model/utils.h \
+  /opt/ros/humble/include/urdfdom_headers/urdf_model/types.h \
+  /opt/ros/humble/include/urdfdom_headers/urdf_model/color.h \
+  /usr/include/c++/11/math.h \
+  /opt/ros/humble/include/urdfdom_headers/urdf_model/types.h \
+  /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
+  /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
+  /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
   /opt/ros/humble/include/kdl_parser/kdl_parser/kdl_parser.hpp \
   /usr/include/kdl/tree.hpp \
   /usr/include/kdl/config.h \
@@ -711,18 +729,9 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
   /usr/include/kdl/rotationalinertia.hpp \
   /usr/include/kdl/joint.hpp \
   /usr/include/kdl/chain.hpp \
-  /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
-  /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
-  /opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h \
-  /opt/ros/humble/include/urdfdom_headers/urdf_model/pose.h \
-  /opt/ros/humble/include/urdfdom_headers/urdf_exception/exception.h \
-  /opt/ros/humble/include/urdfdom_headers/urdf_model/utils.h \
-  /opt/ros/humble/include/urdfdom_headers/urdf_model/types.h \
-  /opt/ros/humble/include/urdfdom_headers/urdf_model/color.h \
-  /usr/include/c++/11/math.h \
-  /opt/ros/humble/include/urdfdom_headers/urdf_model/types.h \
   /opt/ros/humble/include/kdl_parser/kdl_parser/visibility_control.hpp \
-  /usr/include/kdl/chainiksolverpos_lma.hpp \
+  /usr/include/kdl/chain.hpp \
+  /usr/include/kdl/chainiksolverpos_nr.hpp \
   /usr/include/kdl/chainiksolver.hpp \
   /usr/include/kdl/framevel.hpp \
   /usr/include/kdl/utilities/rall1d.h \
@@ -881,120 +890,60 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
   /usr/include/kdl/jntarrayvel.hpp \
   /usr/include/kdl/jntarrayacc.hpp \
   /usr/include/kdl/solveri.hpp \
-  /usr/include/eigen3/Eigen/Dense \
-  /usr/include/eigen3/Eigen/Core \
-  /usr/include/eigen3/Eigen/LU \
-  /usr/include/eigen3/Eigen/src/misc/Kernel.h \
-  /usr/include/eigen3/Eigen/src/misc/Image.h \
-  /usr/include/eigen3/Eigen/src/LU/FullPivLU.h \
-  /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h \
-  /usr/include/eigen3/Eigen/src/LU/Determinant.h \
-  /usr/include/eigen3/Eigen/src/LU/InverseImpl.h \
-  /usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
-  /usr/include/eigen3/Eigen/Cholesky \
-  /usr/include/eigen3/Eigen/Jacobi \
-  /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
-  /usr/include/eigen3/Eigen/src/Cholesky/LLT.h \
-  /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h \
-  /usr/include/eigen3/Eigen/QR \
-  /usr/include/eigen3/Eigen/Householder \
-  /usr/include/eigen3/Eigen/src/Householder/Householder.h \
-  /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
-  /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
-  /usr/include/eigen3/Eigen/src/QR/HouseholderQR.h \
-  /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
-  /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
-  /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
-  /usr/include/eigen3/Eigen/SVD \
-  /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
-  /usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
-  /usr/include/eigen3/Eigen/src/SVD/SVDBase.h \
-  /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
-  /usr/include/eigen3/Eigen/src/SVD/BDCSVD.h \
-  /usr/include/eigen3/Eigen/Geometry \
-  /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
-  /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
-  /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
-  /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
-  /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
-  /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
-  /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
-  /usr/include/eigen3/Eigen/src/Geometry/Transform.h \
-  /usr/include/eigen3/Eigen/src/Geometry/Translation.h \
-  /usr/include/eigen3/Eigen/src/Geometry/Scaling.h \
-  /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
-  /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
-  /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
-  /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
-  /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
-  /usr/include/eigen3/Eigen/Eigenvalues \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
-  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+  /usr/include/kdl/chainfksolver.hpp \
+  /usr/include/kdl/chainfksolverpos_recursive.hpp \
+  /usr/include/kdl/jntarray.hpp \
+  /usr/include/kdl/frames.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp \
+  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp \
+  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp
 
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/Scaling.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/Translation.h:
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h:
-
-/usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h:
-
-/usr/include/eigen3/Eigen/Geometry:
-
-/usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
-
-/usr/include/eigen3/Eigen/src/Householder/Householder.h:
-
-/usr/include/eigen3/Eigen/Householder:
-
-/usr/include/eigen3/Eigen/QR:
-
-/usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
-
-/usr/include/eigen3/Eigen/Jacobi:
-
-/usr/include/eigen3/Eigen/src/LU/Determinant.h:
-
-/usr/include/eigen3/Eigen/src/misc/Image.h:
-
-/usr/include/eigen3/Eigen/src/misc/Kernel.h:
-
-/usr/include/eigen3/Eigen/LU:
-
-/usr/include/eigen3/Eigen/Dense:
+/usr/include/kdl/chainfksolverpos_recursive.hpp:
 
 /usr/include/kdl/solveri.hpp:
 
@@ -1010,6 +959,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h:
 
 /usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
@@ -1018,13 +969,9 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
-/usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
-
 /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
-
-/usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
 
@@ -1068,8 +1015,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
-
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 /usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
@@ -1109,8 +1054,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
 
 /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h:
-
-/usr/include/eigen3/Eigen/src/LU/FullPivLU.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
@@ -1158,8 +1101,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
-/usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
@@ -1184,17 +1125,9 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/kdl/framevel.inl:
 
+/usr/include/kdl/chainiksolverpos_nr.hpp:
+
 /opt/ros/humble/include/kdl_parser/kdl_parser/visibility_control.hpp:
-
-/opt/ros/humble/include/urdfdom_headers/urdf_model/utils.h:
-
-/opt/ros/humble/include/urdfdom_headers/urdf_exception/exception.h:
-
-/opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h:
-
-/usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
-
-/opt/ros/humble/include/urdfdom_headers/urdf_model/link.h:
 
 /usr/include/kdl/chain.hpp:
 
@@ -1210,9 +1143,19 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/kdl/frames.hpp:
 
-/usr/include/kdl/segment.hpp:
-
 /usr/include/kdl/tree.hpp:
+
+/opt/ros/humble/include/urdfdom_headers/urdf_model/utils.h:
+
+/opt/ros/humble/include/urdfdom_headers/urdf_exception/exception.h:
+
+/opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h:
+
+/usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h:
+
+/opt/ros/humble/include/urdfdom_headers/urdf_model/link.h:
+
+/opt/ros/humble/include/urdf/urdf/model.h:
 
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp:
 
@@ -1226,15 +1169,21 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp:
 
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
-/usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp:
+
+/usr/include/kdl/segment.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
 
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
 
@@ -1273,8 +1222,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
-
-/usr/include/eigen3/Eigen/src/SVD/BDCSVD.h:
 
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
 
@@ -1318,8 +1265,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:
@@ -1355,6 +1300,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
 
@@ -1396,8 +1343,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
-
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp:
@@ -1429,10 +1374,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
-
-/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
@@ -1486,9 +1427,9 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/c++/11/ratio:
 
-/usr/include/stdio.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp:
 
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+/usr/include/stdio.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
@@ -1506,17 +1447,13 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/c++/11/string_view:
 
-/usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
-
-/usr/include/eigen3/Eigen/src/LU/PartialPivLU.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp:
 
 /usr/include/c++/11/numeric:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
@@ -1576,6 +1513,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /opt/ros/humble/include/rmw/rmw/security_options.h:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp:
+
 /usr/include/c++/11/cerrno:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
@@ -1604,8 +1543,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
-
 /usr/include/c++/11/cstdio:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
@@ -1618,6 +1555,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp:
+
 /opt/ros/humble/include/rmw/rmw/init.h:
 
 /usr/include/c++/11/bits/nested_exception.h:
@@ -1629,6 +1568,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h:
 
 /opt/ros/humble/include/rcl/rcl/graph.h:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp:
 
 /usr/include/c++/11/bits/stl_set.h:
 
@@ -1684,6 +1625,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
+/opt/ros/humble/include/urdf/urdf/visibility_control.hpp:
+
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
 /usr/include/endian.h:
@@ -1730,8 +1673,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/eigen3/Eigen/Cholesky:
-
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
 
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
@@ -1740,9 +1681,13 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/c++/11/bits/functional_hash.h:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/SolverBase.h:
 
 /usr/include/c++/11/csignal:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
@@ -1796,8 +1741,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp:
-
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
@@ -1821,6 +1764,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp:
 
@@ -1849,6 +1794,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
 /usr/include/c++/11/iosfwd:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
 
 /usr/include/c++/11/initializer_list:
 
@@ -1886,8 +1833,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /opt/ros/humble/include/rmw/rmw/message_sequence.h:
 
-/usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
 
 /usr/include/features.h:
@@ -1902,9 +1847,11 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -1926,13 +1873,9 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:
 
-/usr/include/eigen3/Eigen/src/Geometry/Umeyama.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp:
 
 /usr/include/c++/11/sstream:
-
-/usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
-
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -1966,9 +1909,9 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /opt/ros/humble/include/rmw/rmw/serialized_message.h:
 
-/usr/include/c++/11/cstdlib:
+/opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h:
 
-/usr/include/eigen3/Eigen/src/Geometry/Transform.h:
+/usr/include/c++/11/cstdlib:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
@@ -1998,6 +1941,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
@@ -2007,8 +1952,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/eigen3/Eigen/src/SVD/SVDBase.h:
 
 /usr/include/eigen3/Eigen/src/Core/DenseBase.h:
 
@@ -2045,8 +1988,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /usr/include/linux/close_range.h:
 
 /opt/ros/humble/include/rcl/rcl/init_options.h:
-
-/usr/include/eigen3/Eigen/SVD:
 
 /opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
 
@@ -2142,8 +2083,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-/usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
 
 /usr/include/c++/11/bits/atomic_futex.h:
@@ -2183,8 +2122,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
 
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
@@ -2238,8 +2175,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/c++/11/bits/streambuf.tcc:
 
-/usr/include/kdl/chainiksolverpos_lma.hpp:
-
 /usr/include/string.h:
 
 /usr/include/c++/11/cwctype:
@@ -2257,6 +2192,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/istream:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -2303,8 +2240,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
-
-/usr/include/eigen3/Eigen/Eigenvalues:
 
 /usr/include/c++/11/math.h:
 
@@ -2384,6 +2319,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/bits/list.tcc:
@@ -2392,15 +2329,13 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
-/usr/include/eigen3/Eigen/src/QR/HouseholderQR.h:
-
 /usr/include/eigen3/Eigen/src/Core/Stride.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
 
-/opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
+/opt/ros/humble/include/urdfdom_headers/urdf_world/types.h:
 
-/usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
+/opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
 
 /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
 
@@ -2409,8 +2344,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /usr/include/c++/11/bit:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h:
-
-/usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
 
 /usr/include/c++/11/bits/codecvt.h:
 
@@ -2431,8 +2364,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h:
-
-/usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
 
@@ -2475,6 +2406,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /opt/ros/humble/include/rcl/rcl/domain_id.h:
 
 /opt/ros/humble/include/rcl/rcl/service.h:
+
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp:
 
 /opt/ros/humble/include/rcl/rcl/subscription.h:
 
@@ -2560,6 +2493,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 
+/opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp:
+
 /usr/include/kdl/frameacc.inl:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
@@ -2590,6 +2525,8 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:
 
+/usr/include/kdl/chainfksolver.hpp:
+
 /opt/ros/humble/include/rmw/rmw/names_and_types.h:
 
 /usr/include/wctype.h:
@@ -2599,8 +2536,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
 /opt/ros/humble/include/rcutils/rcutils/logging.h:
 
@@ -2649,8 +2584,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
-
-/usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
 
 /opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
@@ -2741,8 +2674,6 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o: 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
-
-/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
 

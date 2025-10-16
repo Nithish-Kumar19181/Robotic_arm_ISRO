@@ -1,0 +1,79 @@
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:108:41:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  108 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr urdf_sub_;
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:108:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  108 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr urdf_sub_;
+      |                                               [01;31m[K^[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:108:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:108:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:108:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:108:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  108 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K urdf_sub_;
+      |                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:108:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kurdf_sub_[m[K’ does not name a type
+  108 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Kurdf_sub_[m[K;
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:140:44:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+  140 |     void urdfCallback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg) {
+      |                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:140:62:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+  140 |     void urdfCallback(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                              [01;31m[K^~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:140:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+  140 |     void urdfCallback[34m[K([m[Kconst std_msgs::msg::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                      [34m[K~[m[K                                      [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                             [32m[K)[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:140:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  140 |     void urdfCallback(const std_msgs::msg::String::[01;31m[KSharedPtr[m[K msg) {
+      |                                                    [01;31m[K^~~~~~~~~[m[K
+      |                                                             [32m[K;[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:140:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+  140 |     void urdfCallback(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                              [01;31m[K^~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:[m[K In constructor ‘[01m[KForceControlledWallFollow::ForceControlledWallFollow()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kurdf_sub_[m[K’ was not declared in this scope
+   85 |         [01;31m[Kurdf_sub_[m[K = this->create_subscription<std_msgs::msg::String>(
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:85:62:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   85 |         urdf_sub_ = this->create_subscription<std_msgs::msg::[01;31m[KString[m[K>(
+      |                                                              [01;31m[K^~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:85:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KForceControlledWallFollow::create_subscription<<expression error> >(const char [18], rclcpp::QoS&, std::_Bind_helper<false, void (ForceControlledWallFollow::*)(...), ForceControlledWallFollow*, const std::_Placeholder<1>&>::type)[m[K’
+   85 |         urdf_sub_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   86 | [01;31m[K            "robot_description",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                     
+   87 | [01;31m[K            rclcpp::QoS(rclcpp::KeepLast(1))[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                         
+   88 | [01;31m[K                .durability(RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL),[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   89 | [01;31m[K            std::bind(&ForceControlledWallFollow::urdfCallback, this, _1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:85:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   85 |         urdf_sub_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   86 | [01;31m[K            "robot_description",[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                     
+   87 | [01;31m[K            rclcpp::QoS(rclcpp::KeepLast(1))[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                         
+   88 | [01;31m[K                .durability(RMW_QOS_POLICY_DURABILITY_TRANSIENT_LOCAL),[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   89 | [01;31m[K            std::bind(&ForceControlledWallFollow::urdfCallback, this, _1))[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:[m[K In member function ‘[01m[Kvoid ForceControlledWallFollow::controlLoop()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/helix_trajectory_publisher.cpp:216:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kforce_error[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  216 |                 double [01;35m[Kforce_error[m[K = desired_force_ - current_force;
+      |                        [01;35m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/helix_trajectory_publisher.dir/build.make:76: CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:269: CMakeFiles/helix_trajectory_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

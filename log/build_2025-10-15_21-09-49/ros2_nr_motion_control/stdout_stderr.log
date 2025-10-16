@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target cartesian_space_trajectory_node[0m
+[ 12%] Built target gtest_main
+[ 37%] Built target joint_space_trajectory_node
+[ 37%] Built target gtest
+[ 50%] [32mBuilding CXX object CMakeFiles/joint_sine_publisher.dir/src/joint_sine_publisher.cpp.o[0m
+[ 56%] Built target joint_angle_publisher
+[ 68%] Built target helix_trajectory_publisher
+[ 81%] Built target cartesian_space_trajectory_node
+[ 93%] Built target test_robot_arm_motion_planner
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/joint_sine_publisher.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kurdf/model.h: No such file or directory
+    4 | #include [01;31m[K<urdf/model.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/joint_sine_publisher.dir/build.make:76: CMakeFiles/joint_sine_publisher.dir/src/joint_sine_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:191: CMakeFiles/joint_sine_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

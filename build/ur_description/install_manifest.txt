@@ -127,6 +127,7 @@
 /home/nithish/ur10e_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
 /home/nithish/ur10e_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
 /home/nithish/ur10e_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+/home/nithish/ur10e_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/bowl.stl
 /home/nithish/ur10e_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
 /home/nithish/ur10e_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
 /home/nithish/ur10e_ws/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl

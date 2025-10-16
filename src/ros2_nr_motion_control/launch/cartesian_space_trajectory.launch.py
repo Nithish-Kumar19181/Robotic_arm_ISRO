@@ -10,18 +10,15 @@ def generate_launch_description():
 
     ur_type = 'ur10e'
 
-    # 1. Define the path to YOUR custom URDF file.
     robot_description_path = os.path.join(
         get_package_share_directory('my_moveit_config'),
         'config',
         f'{ur_type}.urdf.xacro'
     )
 
-    # 2. Process your file into an XML string.
     robot_description_config = xacro.process_file(robot_description_path)
     robot_description_content = robot_description_config.toxml()
 
-    # Get paths to other necessary files
     ur_simulation_gazebo_pkg_dir = get_package_share_directory('ur_simulation_gazebo')
     ur_sim_launch_file = os.path.join(ur_simulation_gazebo_pkg_dir, 'launch', 'ur_sim_control.launch.py')
     

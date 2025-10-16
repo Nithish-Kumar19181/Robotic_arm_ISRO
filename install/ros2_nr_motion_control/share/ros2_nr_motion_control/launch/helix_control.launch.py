@@ -8,38 +8,85 @@ import xacro
 
 def generate_launch_description():
 
-    # === Load the robot's URDF model ===
-    # This is the most reliable way to get the robot_description
     ur_type = 'ur10e'
+
     robot_description_path = os.path.join(
-        get_package_share_directory('ur_description'),
-        'urdf',
+        get_package_share_directory('my_moveit_config'),
+        'config',
         f'{ur_type}.urdf.xacro'
     )
-    robot_description_config = xacro.process_file(robot_description_path)
-    robot_description_params = {'robot_description': robot_description_config.toxml()}
 
-    # === Get paths to other necessary files ===
+    robot_description_config = xacro.process_file(robot_description_path)
+    robot_description_content = robot_description_config.toxml()
+
     ur_simulation_gazebo_pkg_dir = get_package_share_directory('ur_simulation_gazebo')
     ur_sim_launch_file = os.path.join(ur_simulation_gazebo_pkg_dir, 'launch', 'ur_sim_control.launch.py')
+    
+    ur_robot_driver_pkg_dir = get_package_share_directory('ur_robot_driver')
+    ur_driver_launch_file = os.path.join(ur_robot_driver_pkg_dir,'launch','ur_control.launch.py')
+    
     rviz_config_file = os.path.join(
-        get_package_share_directory('ros2_nr_motion_control'), # CHANGE THIS to your package name
-        "rviz", 
+        get_package_share_directory('ros2_nr_motion_control'),
+        "rviz",
         "view_robot.rviz"
     )
 
+    # Wall SDF model
+    wall_sdf = """
+    <?xml version="1.0" ?>
+    <sdf version="1.6">
+      <model name="wall">
+        <static>true</static>
+        <link name="wall_link">
+          <collision name="collision">
+            <geometry>
+              <box>
+                <size>0.1 2.0 2.0</size>
+              </box>
+            </geometry>
+          </collision>
+          <visual name="visual">
+            <geometry>
+              <box>
+                <size>0.1 2.0 2.0</size>
+              </box>
+            </geometry>
+            <material>
+              <ambient>0.8 0.2 0.2 1.0</ambient>
+              <diffuse>0.8 0.2 0.2 1.0</diffuse>
+            </material>
+          </visual>
+        </link>
+      </model>
+    </sdf>
+    """
+
     return LaunchDescription([
 
-        # 1. Launch the Gazebo simulation with the UR10e robot
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(ur_sim_launch_file),
             launch_arguments={
                 'ur_type': ur_type,
-                'launch_rviz': 'False'  # We launch our own RViz instance
+                'launch_rviz': 'False', 
             }.items(),
         ),
 
-        # 2. Launch RViz for visualization
+        # Spawn wall in Gazebo
+        Node(
+            package='gazebo_ros',
+            executable='spawn_entity.py',
+            name='spawn_wall',
+            output='screen',
+            arguments=[
+                '-entity', 'wall',
+                '-x', '1.0',  # Position in front of robot
+                '-y', '0.0',
+                '-z', '1.0',
+                '-file', '/tmp/wall.sdf'
+            ],
+            parameters=[{'sdf': wall_sdf}]
+        ),
+
         Node(
             package="rviz2",
             executable="rviz2",
@@ -48,20 +95,21 @@ def generate_launch_description():
             arguments=["-d", rviz_config_file],
         ),
 
-        # 3. Delay the start of your node to allow Gazebo and controllers to fully load
         TimerAction(
-            period=5.0, # 5-second delay
+            period=2.0,  # Wait for simulation to start
             actions=[
                 Node(
-                    package='ros2_nr_motion_control', # CHANGE THIS to your package name
-                    # IMPORTANT: Ensure this executable name matches your CMakeLists.txt
-                    executable='helix_trajectory_publisher', 
-                    name='helix_trajectory_publisher',
+                    package='ros2_nr_motion_control',
+                    executable='joint_angle_publisher',
+                    name='joint_angle_publisher',
                     output='screen',
-                    parameters=[
-                        robot_description_params, # Pass the loaded robot description
-                        {'use_sim_time': True}   # Use the simulation clock
-                    ]
+                ),
+
+                Node(
+                    package='ros2_nr_motion_control',
+                    executable='joint_sine_publisher',
+                    name='joint_sine_publisher',
+                    output='screen',
                 )
             ]
         )
