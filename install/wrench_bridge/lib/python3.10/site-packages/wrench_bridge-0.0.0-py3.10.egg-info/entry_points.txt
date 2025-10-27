@@ -1,3 +1,0 @@
-[console_scripts]
-wrench_bridge_node = wrench_bridge.wrench_bridge_node:main
-

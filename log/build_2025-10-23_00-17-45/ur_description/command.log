@@ -1,1 +1,0 @@
-Invoking command in '/home/nithish/ur10e_ws/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nithish/ur10e_ws/install/wrench_bridge:/home/nithish/ws_moveit2/install/moveit_configs_utils:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ur_description -- -j12 -l12

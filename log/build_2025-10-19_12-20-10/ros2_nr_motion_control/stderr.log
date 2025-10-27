@@ -1,7 +1,0 @@
-[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kfilter.hpp: No such file or directory
-   20 | #include [01;31m[K<filter.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/cartesian_space_trajectory_node.dir/build.make:76: CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/cartesian_space_trajectory_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

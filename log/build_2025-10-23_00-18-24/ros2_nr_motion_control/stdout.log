@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target cartesian_space_trajectory_node[0m
-[ 12%] Built target gtest_main
-[ 25%] Built target joint_sine_publisher
-[ 37%] Built target joint_angle_publisher
-[ 62%] Built target gtest
-[ 62%] Built target joint_space_trajectory_node
-[ 75%] Built target helix_trajectory_publisher
-[ 81%] [32mBuilding CXX object CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o[0m
-[ 93%] Built target test_robot_arm_motion_planner
