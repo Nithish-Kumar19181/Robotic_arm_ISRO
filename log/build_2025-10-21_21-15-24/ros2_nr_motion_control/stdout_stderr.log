@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target cartesian_space_trajectory_node[0m
+[ 18%] Built target gtest_main
+[ 25%] Built target gtest
+[ 37%] Built target joint_space_trajectory_node
+[ 56%] Built target joint_angle_publisher
+[ 62%] Built target joint_sine_publisher
+[ 75%] Built target helix_trajectory_publisher
+[ 81%] [32mBuilding CXX object CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o[0m
+[ 93%] Built target test_robot_arm_motion_planner
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:66:41:[m[K [01;31m[Kerror: [m[K‘[01m[KJointTrarajectoryPoint[m[K’ is not a member of ‘[01m[Ktrajectory_msgs::msg[m[K’; did you mean ‘[01m[KJointTrajectoryPoint[m[K’?
+   66 | rclcpp::Publisher<trajectory_msgs::msg::[01;31m[KJointTrarajectoryPoint[m[K>::SharedPtr pub_;
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                         [32m[KJointTrajectoryPoint[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:66:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   66 | rclcpp::Publisher<trajectory_msgs::msg::JointTrarajectoryPoint[01;31m[K>[m[K::SharedPtr pub_;
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:66:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   66 | rclcpp::Publisher<trajectory_msgs::msg::JointTrarajectoryPoint>::[01;31m[KSharedPtr[m[K pub_;
+      |                                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                                           [32m[K;[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:66:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ does not name a type
+   66 | rclcpp::Publisher<trajectory_msgs::msg::JointTrarajectoryPoint>::SharedPtr [01;31m[Kpub_[m[K;
+      |                                                                            [01;31m[K^~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In constructor ‘[01m[KCircleAndLineNode::CircleAndLineNode()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:46:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   46 | [01;31m[Kpub_[m[K = this->create_publisher<trajectory_msgs::msg::JointTrajectoryPoint>(
+      | [01;31m[K^~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In member function ‘[01m[Kvoid CircleAndLineNode::publishNextPoint()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:342:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+  342 | [01;31m[Kpub_[m[K->publish(pt);
+      | [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/cartesian_space_trajectory_node.dir/build.make:76: CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/cartesian_space_trajectory_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

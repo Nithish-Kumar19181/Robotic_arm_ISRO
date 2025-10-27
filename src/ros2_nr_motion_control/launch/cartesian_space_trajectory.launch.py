@@ -22,8 +22,8 @@ def generate_launch_description():
     ur_simulation_gazebo_pkg_dir = get_package_share_directory('ur_simulation_gazebo')
     ur_sim_launch_file = os.path.join(ur_simulation_gazebo_pkg_dir, 'launch', 'ur_sim_control.launch.py')
     
-    ur_robot_driver_pkg_dir = get_package_share_directory('ur_robot_driver')
-    ur_driver_launch_file = os.path.join(ur_robot_driver_pkg_dir,'lauch','ur_control.launch.py')
+    # Wall SDF file path
+    wall_sdf_path = "/home/nithish/ur10e_ws/src/ros2_nr_motion_control/model/wall.sdf"
     
     rviz_config_file = os.path.join(
         get_package_share_directory('ros2_nr_motion_control'),
@@ -41,6 +41,20 @@ def generate_launch_description():
             }.items(),
         ),
 
+        # Spawn the wall in Gazebo
+        Node(
+            package='gazebo_ros',
+            executable='spawn_entity.py',
+            arguments=[
+                '-entity', 'wall',
+                '-file', wall_sdf_path,
+                '-x', '0.8',  # Position the wall 1.5m away in x direction
+                '-y', '0.0',
+                '-z', '0.5',
+                '-Y', '0.0'
+            ],
+            output='screen',
+        ),
 
         Node(
             package="rviz2",
@@ -51,7 +65,7 @@ def generate_launch_description():
         ),
 
         TimerAction(
-            period=0.0,
+            period=2.0,  # Wait 2 seconds for everything to start
             actions=[
                 Node(
                     package='ros2_nr_motion_control',

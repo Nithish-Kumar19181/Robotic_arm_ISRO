@@ -1,0 +1,160 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+-- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found orocos_kdl_vendor: 0.2.5 (/opt/ros/humble/share/orocos_kdl_vendor/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nithish/ur10e_ws/build/ros2_nr_motion_control
+[35m[1mConsolidate compiler generated dependencies of target cartesian_space_trajectory_node[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target joint_sine_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target joint_angle_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target joint_space_trajectory_node[0m
+[35m[1mConsolidate compiler generated dependencies of target helix_trajectory_publisher[0m
+[ 25%] Built target gtest
+[ 25%] Built target gtest_main
+[ 37%] Built target joint_space_trajectory_node
+[ 50%] Built target joint_angle_publisher
+[ 62%] Built target joint_sine_publisher
+[ 68%] [32mBuilding CXX object CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o[0m
+[ 81%] Built target helix_trajectory_publisher
+[35m[1mConsolidate compiler generated dependencies of target test_robot_arm_motion_planner[0m
+[ 93%] Built target test_robot_arm_motion_planner
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:406:10:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kpublish[m[K’ declared void
+  406 |     void [01;31m[Kpublish[m[K
+      |          [01;31m[K^~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:406:10:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  406 |     void [01;31m[Kpublish[m[K
+      |          [01;31m[K^~~~~~~[m[K
+      |                 [32m[K;[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:406:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  406 |     void publish
+      |                 [01;31m[K^[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:28:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   28 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In constructor ‘[01m[KURForceModeController::URForceModeController()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:69:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_urdf_received[m[K’ is not a member of ‘[01m[KURForceModeController[m[K’
+   69 |             std::bind(&URForceModeController::[01;31m[Kon_urdf_received[m[K, this, _1));
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In member function ‘[01m[Kvoid URForceModeController::tcp_pose_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:198:44:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} and ‘[01m[Krclcpp::Time[m[K’)
+  198 |             double dt = ([32m[Kmsg->header.stamp[m[K [01;31m[K-[m[K [34m[Klast_time[m[K).seconds();
+      |                          [32m[K~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~[m[K
+      |                                      [32m[K|[m[K       [34m[K|[m[K
+      |                                      [32m[K|[m[K       [34m[Krclcpp::Time[m[K
+      |                                      [32m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type {aka builtin_interfaces::msg::Time_<std::allocator<void> >}[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+  577 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:198:46:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+  198 |             double dt = (msg->header.stamp - [01;36m[Klast_time[m[K).seconds();
+      |                                              [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/memory:63[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+ 1693 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:198:46:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+  198 |             double dt = (msg->header.stamp - [01;36m[Klast_time[m[K).seconds();
+      |                                              [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+                 from [01m[K/usr/include/kdl/jacobian.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/jntarray.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/chainiksolver.hpp:29[m[K,
+                 from [01m[K/usr/include/kdl/chainiksolverpos_lma.hpp:34[m[K,
+                 from [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:12[m[K:
+[01m[K/usr/include/c++/11/complex:362:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+  362 |     [01;36m[Koperator[m[K-(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:362:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:198:46:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  198 |             double dt = (msg->header.stamp - [01;36m[Klast_time[m[K).seconds();
+      |                                              [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+                 from [01m[K/usr/include/kdl/jacobian.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/jntarray.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/chainiksolver.hpp:29[m[K,
+                 from [01m[K/usr/include/kdl/chainiksolverpos_lma.hpp:34[m[K,
+                 from [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:12[m[K:
+[01m[K/usr/include/c++/11/complex:371:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const _Tp&)[m[K’
+  371 |     [01;36m[Koperator[m[K-(const complex<_Tp>& __x, const _Tp& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:371:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:198:46:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  198 |             double dt = (msg->header.stamp - [01;36m[Klast_time[m[K).seconds();
+      |                                              [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+                 from [01m[K/usr/include/kdl/jacobian.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/jntarray.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/chainiksolver.hpp:29[m[K,
+                 from [01m[K/usr/include/kdl/chainiksolverpos_lma.hpp:34[m[K,
+                 from [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:12[m[K:
+[01m[K/usr/include/c++/11/complex:380:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const _Tp&, const std::complex<_Tp>&)[m[K’
+  380 |     [01;36m[Koperator[m[K-(const _Tp& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:380:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:198:46:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Time[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  198 |             double dt = (msg->header.stamp - [01;36m[Klast_time[m[K).seconds();
+      |                                              [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:50[m[K,
+                 from [01m[K/usr/include/kdl/jacobian.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/jntarray.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/chainiksolver.hpp:29[m[K,
+                 from [01m[K/usr/include/kdl/chainiksolverpos_lma.hpp:34[m[K,
+                 from [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:12[m[K:
+[01m[K/usr/include/c++/11/complex:457:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&)[m[K’
+  457 |     [01;36m[Koperator[m[K-(const complex<_Tp>& __x)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:457:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:198:46:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  198 |             double dt = (msg->header.stamp - [01;36m[Klast_time[m[K).seconds();
+      |                                              [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In member function ‘[01m[Kvoid URForceModeController::force_callback(geometry_msgs::msg::WrenchStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:246:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_status[m[K’ was not declared in this scope
+  246 |             [01;31m[Kpublish_status[m[K("EMERGENCY_STOP_FORCE_LIMIT_EXCEEDED");
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:269:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_status[m[K’ was not declared in this scope
+  269 |             [01;31m[Kpublish_status[m[K("FORCE_CONTACT_ESTABLISHED");
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:279:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublish_status[m[K’ was not declared in this scope
+  279 |                     [01;31m[Kpublish_status[m[K("TANGENTIAL_MOVEMENT_STARTED");
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K At global scope:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:406:17:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  406 |     void publish
+      |                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/cartesian_space_trajectory_node.dir/build.make:76: CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/cartesian_space_trajectory_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

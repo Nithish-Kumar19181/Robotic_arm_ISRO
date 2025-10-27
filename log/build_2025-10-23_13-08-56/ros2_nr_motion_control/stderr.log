@@ -1,0 +1,66 @@
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:41:39:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   41 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr urdf_sub_;
+      |                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:41:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   41 |   rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr urdf_sub_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:41:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:41:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:41:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:41:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   41 |   rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K urdf_sub_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:41:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kurdf_sub_[m[K’ does not name a type
+   41 |   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Kurdf_sub_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:68:43:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+   68 |   void urdf_callback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg) {
+      |                                           [01;31m[K^~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:68:61:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   68 |   void urdf_callback(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                             [01;31m[K^~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:68:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   68 |   void urdf_callback[34m[K([m[Kconst std_msgs::msg::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) {
+      |                     [34m[K~[m[K                                      [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                                            [32m[K)[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:68:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   68 |   void urdf_callback(const std_msgs::msg::String::[01;31m[KSharedPtr[m[K msg) {
+      |                                                   [01;31m[K^~~~~~~~~[m[K
+      |                                                            [32m[K;[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:68:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   68 |   void urdf_callback(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) {
+      |                                                             [01;31m[K^~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In constructor ‘[01m[KSimpleForceWallFollower::SimpleForceWallFollower()[m[K’:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kurdf_sub_[m[K’ was not declared in this scope
+   29 |     [01;31m[Kurdf_sub_[m[K = create_subscription<std_msgs::msg::String>(
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:29:52:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   29 |     urdf_sub_ = create_subscription<std_msgs::msg::[01;31m[KString[m[K>(
+      |                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:29:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSimpleForceWallFollower::create_subscription<<expression error> >(const char [18], rclcpp::QoS&, std::_Bind_helper<false, void (SimpleForceWallFollower::*)(...), SimpleForceWallFollower*, const std::_Placeholder<1>&>::type)[m[K’
+   29 |     urdf_sub_ = [01;31m[Kcreate_subscription<std_msgs::msg::String>([m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   30 | [01;31m[K      "robot_description", rclcpp::QoS(1).transient_local(),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   31 | [01;31m[K      std::bind(&SimpleForceWallFollower::urdf_callback, this, std::placeholders::_1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+   92 | [01;36m[KNode[m[K::create_subscription(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:29:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |     urdf_sub_ = [01;31m[Kcreate_subscription<std_msgs::msg::String>([m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   30 | [01;31m[K      "robot_description", rclcpp::QoS(1).transient_local(),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   31 | [01;31m[K      std::bind(&SimpleForceWallFollower::urdf_callback, this, std::placeholders::_1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cartesian_space_trajectory_node.dir/build.make:76: CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/cartesian_space_trajectory_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

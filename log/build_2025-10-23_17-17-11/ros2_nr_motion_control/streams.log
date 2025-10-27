@@ -1,0 +1,108 @@
+[0.051s] Invoking command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ur_description:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/ur10e_ws/install/ur:/home/nithish/ur10e_ws/install/ur_calibration:/home/nithish/ur10e_ws/install/ur_robot_driver:/home/nithish/ur10e_ws/install/ur_moveit_config:/home/nithish/ur10e_ws/install/ur_bringup:/home/nithish/ur10e_ws/install/my_moveit_config:/home/nithish/ur10e_ws/install/ur_controllers:/home/nithish/ur10e_ws/install/ur_dashboard_msgs:/home/nithish/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/nithish/ws_moveit2/install/moveit_runtime:/home/nithish/ws_moveit2/install/moveit:/home/nithish/ws_moveit2/install/moveit_planners:/home/nithish/ws_moveit2/install/pilz_industrial_motion_planner:/home/nithish/ws_moveit2/install/moveit_ros_control_interface:/home/nithish/ws_moveit2/install/moveit_plugins:/home/nithish/ws_moveit2/install/moveit_simple_controller_manager:/home/nithish/ws_moveit2/install/moveit_setup_assistant:/home/nithish/ws_moveit2/install/moveit_setup_srdf_plugins:/home/nithish/ws_moveit2/install/moveit_setup_core_plugins:/home/nithish/ws_moveit2/install/moveit_setup_controllers:/home/nithish/ws_moveit2/install/moveit_setup_app_plugins:/home/nithish/ws_moveit2/install/moveit_setup_framework:/home/nithish/ws_moveit2/install/moveit_servo:/home/nithish/ws_moveit2/install/moveit_ros:/home/nithish/ws_moveit2/install/moveit_ros_visualization:/home/nithish/ws_moveit2/install/moveit_hybrid_planning:/home/nithish/ws_moveit2/install/moveit_ros_planning_interface:/home/nithish/ws_moveit2/install/moveit_ros_benchmarks:/home/nithish/ws_moveit2/install/moveit_ros_warehouse:/home/nithish/ws_moveit2/install/moveit_ros_robot_interaction:/home/nithish/ws_moveit2/install/moveit_ros_perception:/home/nithish/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/nithish/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/nithish/ws_moveit2/install/moveit_ros_move_group:/home/nithish/ws_moveit2/install/moveit_planners_ompl:/home/nithish/ws_moveit2/install/moveit_ros_planning:/home/nithish/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/nithish/ws_moveit2/install/moveit_resources_prbt_support:/home/nithish/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/nithish/ws_moveit2/install/moveit_planners_chomp:/home/nithish/ws_moveit2/install/moveit_kinematics:/home/nithish/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/nithish/ws_moveit2/install/chomp_motion_planner:/home/nithish/ws_moveit2/install/moveit_core:/home/nithish/ws_moveit2/install/moveit_common:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/ur:/home/nithish/robotic_arm_ws/install/ur_calibration:/home/nithish/robotic_arm_ws/install/ur_robot_driver:/home/nithish/robotic_arm_ws/install/ur_moveit_config:/home/nithish/robotic_arm_ws/install/ur_bringup:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/ur_controllers:/home/nithish/robotic_arm_ws/install/ur_dashboard_msgs:/home/nithish/ur10e_ws/install/wrench_bridge:/home/nithish/ws_moveit2/install/moveit_configs_utils:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ros2_nr_motion_control -- -j12 -l12
+[0.115s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.379s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.444s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.449s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.469s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.687s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.702s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.789s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.917s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.972s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.004s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.062s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[1.103s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.152s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.168s] -- Found orocos_kdl_vendor: 0.2.5 (/opt/ros/humble/share/orocos_kdl_vendor/cmake)
+[1.171s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.173s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.177s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[1.180s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.231s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.240s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.418s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.442s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.451s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.581s] -- Configuring done
+[1.676s] -- Generating done
+[1.711s] -- Build files have been written to: /home/nithish/ur10e_ws/build/ros2_nr_motion_control
+[1.810s] [35m[1mConsolidate compiler generated dependencies of target helix_trajectory_publisher[0m
+[1.811s] [35m[1mConsolidate compiler generated dependencies of target joint_space_trajectory_node[0m
+[1.812s] [35m[1mConsolidate compiler generated dependencies of target joint_sine_publisher[0m
+[1.814s] [35m[1mConsolidate compiler generated dependencies of target cartesian_space_trajectory_node[0m
+[1.814s] [35m[1mConsolidate compiler generated dependencies of target joint_angle_publisher[0m
+[1.814s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.815s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.863s] [ 12%] Built target gtest_main
+[1.873s] [ 25%] Built target helix_trajectory_publisher
+[1.873s] [ 37%] Built target gtest
+[1.874s] [ 50%] Built target joint_sine_publisher
+[1.876s] [ 62%] Built target joint_angle_publisher
+[1.890s] [ 75%] Built target joint_space_trajectory_node
+[1.897s] [ 81%] [32mBuilding CXX object CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o[0m
+[1.914s] [35m[1mConsolidate compiler generated dependencies of target test_robot_arm_motion_planner[0m
+[1.963s] [ 93%] Built target test_robot_arm_motion_planner
+[7.694s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:78:48:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs::msg[m[K’
+[7.694s]    78 |     rclcpp::Publisher<visualization_msgs::msg::[01;31m[KMarkerArray[m[K>::SharedPtr marker_pub_;
+[7.694s]       |                                                [01;31m[K^~~~~~~~~~~[m[K
+[7.695s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:78:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.695s]    78 |     rclcpp::Publisher<visualization_msgs::msg::MarkerArray[01;31m[K>[m[K::SharedPtr marker_pub_;
+[7.695s]       |                                                           [01;31m[K^[m[K
+[7.696s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:78:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[7.696s]    78 |     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::[01;31m[KSharedPtr[m[K marker_pub_;
+[7.696s]       |                                                              [01;31m[K^~~~~~~~~[m[K
+[7.696s]       |                                                                       [32m[K;[m[K
+[7.702s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:78:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ does not name a type
+[7.702s]    78 |     rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr [01;31m[Kmarker_pub_[m[K;
+[7.702s]       |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+[7.721s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In constructor ‘[01m[KCartesianForceController::CartesianForceController()[m[K’:
+[7.721s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:105:12:[m[K [01;35m[Kwarning: [m[K‘[01m[KCartesianForceController::filtered_force_x_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.722s]   105 |     double [01;35m[Kfiltered_force_x_[m[K;
+[7.722s]       |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[7.722s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:96:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble CartesianForceController::safety_force_limit_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.722s]    96 |     double [01;35m[Ksafety_force_limit_[m[K;
+[7.722s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[7.722s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:25:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.722s]    25 |     [01;35m[KCartesianForceController[m[K()
+[7.722s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.758s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:58:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[7.758s]    58 |         [01;31m[Kmarker_pub_[m[K = this->create_publisher<visualization_msgs::msg::MarkerArray>(
+[7.759s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[7.760s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:58:71:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs::msg[m[K’
+[7.760s]    58 |         marker_pub_ = this->create_publisher<visualization_msgs::msg::[01;31m[KMarkerArray[m[K>(
+[7.760s]       |                                                                       [01;31m[K^~~~~~~~~~~[m[K
+[7.761s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:58:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCartesianForceController::create_publisher<<expression error> >(const char [23], int)[m[K’
+[7.761s]    58 |         marker_pub_ = [01;31m[Kthis->create_publisher<visualization_msgs::msg::MarkerArray>([m[K
+[7.761s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.761s]    59 | [01;31m[K            "/ik_trajectory_markers", 10)[m[K;
+[7.761s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                          
+[7.761s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[7.761s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.762s]                  from [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:1[m[K:
+[7.762s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[7.762s]    73 | [01;36m[KNode[m[K::create_publisher(
+[7.762s]       | [01;36m[K^~~~[m[K
+[7.762s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.762s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:58:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.763s]    58 |         marker_pub_ = [01;31m[Kthis->create_publisher<visualization_msgs::msg::MarkerArray>([m[K
+[7.763s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.763s]    59 | [01;31m[K            "/ik_trajectory_markers", 10)[m[K;
+[7.763s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                          
+[7.876s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:[m[K In member function ‘[01m[Kvoid CartesianForceController::publish_markers(const KDL::Frame&)[m[K’:
+[7.876s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:445:34:[m[K [01;31m[Kerror: [m[K‘[01m[KMarkerArray[m[K’ is not a member of ‘[01m[Kvisualization_msgs::msg[m[K’
+[7.876s]   445 |         visualization_msgs::msg::[01;31m[KMarkerArray[m[K marker_array;
+[7.876s]       |                                  [01;31m[K^~~~~~~~~~~[m[K
+[7.892s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:475:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_array[m[K’ was not declared in this scope
+[7.892s]   475 |         [01;31m[Kmarker_array[m[K.markers.push_back(tool_marker);
+[7.892s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[7.907s] [01m[K/home/nithish/ur10e_ws/src/ros2_nr_motion_control/src/cartesian_space_trajectory_node.cpp:614:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[7.907s]   614 |         [01;31m[Kmarker_pub_[m[K->publish(marker_array);
+[7.907s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[14.173s] gmake[2]: *** [CMakeFiles/cartesian_space_trajectory_node.dir/build.make:76: CMakeFiles/cartesian_space_trajectory_node.dir/src/cartesian_space_trajectory_node.cpp.o] Error 1
+[14.174s] gmake[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/cartesian_space_trajectory_node.dir/all] Error 2
+[14.174s] gmake: *** [Makefile:146: all] Error 2
+[14.180s] Invoked command in '/home/nithish/ur10e_ws/build/ros2_nr_motion_control' returned '2': CMAKE_PREFIX_PATH=/home/nithish/ur10e_ws/install/ur_simulation_gazebo:/home/nithish/ur10e_ws/install/ur_description:/home/nithish/ur10e_ws/install/ros2_nr_motion_control:/home/nithish/ur10e_ws/install/ur:/home/nithish/ur10e_ws/install/ur_calibration:/home/nithish/ur10e_ws/install/ur_robot_driver:/home/nithish/ur10e_ws/install/ur_moveit_config:/home/nithish/ur10e_ws/install/ur_bringup:/home/nithish/ur10e_ws/install/my_moveit_config:/home/nithish/ur10e_ws/install/ur_controllers:/home/nithish/ur10e_ws/install/ur_dashboard_msgs:/home/nithish/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/nithish/ws_moveit2/install/moveit_runtime:/home/nithish/ws_moveit2/install/moveit:/home/nithish/ws_moveit2/install/moveit_planners:/home/nithish/ws_moveit2/install/pilz_industrial_motion_planner:/home/nithish/ws_moveit2/install/moveit_ros_control_interface:/home/nithish/ws_moveit2/install/moveit_plugins:/home/nithish/ws_moveit2/install/moveit_simple_controller_manager:/home/nithish/ws_moveit2/install/moveit_setup_assistant:/home/nithish/ws_moveit2/install/moveit_setup_srdf_plugins:/home/nithish/ws_moveit2/install/moveit_setup_core_plugins:/home/nithish/ws_moveit2/install/moveit_setup_controllers:/home/nithish/ws_moveit2/install/moveit_setup_app_plugins:/home/nithish/ws_moveit2/install/moveit_setup_framework:/home/nithish/ws_moveit2/install/moveit_servo:/home/nithish/ws_moveit2/install/moveit_ros:/home/nithish/ws_moveit2/install/moveit_ros_visualization:/home/nithish/ws_moveit2/install/moveit_hybrid_planning:/home/nithish/ws_moveit2/install/moveit_ros_planning_interface:/home/nithish/ws_moveit2/install/moveit_ros_benchmarks:/home/nithish/ws_moveit2/install/moveit_ros_warehouse:/home/nithish/ws_moveit2/install/moveit_ros_robot_interaction:/home/nithish/ws_moveit2/install/moveit_ros_perception:/home/nithish/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/nithish/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/nithish/ws_moveit2/install/moveit_ros_move_group:/home/nithish/ws_moveit2/install/moveit_planners_ompl:/home/nithish/ws_moveit2/install/moveit_ros_planning:/home/nithish/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/nithish/ws_moveit2/install/moveit_resources_prbt_support:/home/nithish/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/nithish/ws_moveit2/install/moveit_planners_chomp:/home/nithish/ws_moveit2/install/moveit_kinematics:/home/nithish/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/nithish/ws_moveit2/install/chomp_motion_planner:/home/nithish/ws_moveit2/install/moveit_core:/home/nithish/ws_moveit2/install/moveit_common:/home/nithish/rviz2_ws/install:/home/nithish/robotic_arm_ws/install/ur_simulation_gz:/home/nithish/robotic_arm_ws/install/ur:/home/nithish/robotic_arm_ws/install/ur_calibration:/home/nithish/robotic_arm_ws/install/ur_robot_driver:/home/nithish/robotic_arm_ws/install/ur_moveit_config:/home/nithish/robotic_arm_ws/install/ur_bringup:/home/nithish/robotic_arm_ws/install/ur_description:/home/nithish/robotic_arm_ws/install/ur_controllers:/home/nithish/robotic_arm_ws/install/ur_dashboard_msgs:/home/nithish/ur10e_ws/install/wrench_bridge:/home/nithish/ws_moveit2/install/moveit_configs_utils:/home/nithish/robotic_arm_ws/install/path_planner:/opt/ros/humble /usr/bin/cmake --build /home/nithish/ur10e_ws/build/ros2_nr_motion_control -- -j12 -l12

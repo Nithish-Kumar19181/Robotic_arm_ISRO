@@ -685,38 +685,20 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench_stamped.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__struct.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__builder.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__traits.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp
+ /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
- /opt/ros/humble/include/urdf/urdf/model.h
- /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h
- /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h
- /opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h
- /opt/ros/humble/include/urdfdom_headers/urdf_model/pose.h
- /opt/ros/humble/include/urdfdom_headers/urdf_exception/exception.h
- /opt/ros/humble/include/urdfdom_headers/urdf_model/utils.h
- /opt/ros/humble/include/urdfdom_headers/urdf_model/types.h
- /opt/ros/humble/include/urdfdom_headers/urdf_model/color.h
- /usr/include/c++/11/math.h
- /opt/ros/humble/include/urdfdom_headers/urdf_model/types.h
- /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h
- /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h
- /opt/ros/humble/include/urdf/urdf/visibility_control.hpp
  /opt/ros/humble/include/kdl_parser/kdl_parser/kdl_parser.hpp
  /usr/include/kdl/tree.hpp
  /usr/include/kdl/config.h
@@ -730,9 +712,18 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o
  /usr/include/kdl/rotationalinertia.hpp
  /usr/include/kdl/joint.hpp
  /usr/include/kdl/chain.hpp
+ /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h
+ /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h
+ /opt/ros/humble/include/urdfdom_headers/urdf_model/joint.h
+ /opt/ros/humble/include/urdfdom_headers/urdf_model/pose.h
+ /opt/ros/humble/include/urdfdom_headers/urdf_exception/exception.h
+ /opt/ros/humble/include/urdfdom_headers/urdf_model/utils.h
+ /opt/ros/humble/include/urdfdom_headers/urdf_model/types.h
+ /opt/ros/humble/include/urdfdom_headers/urdf_model/color.h
+ /usr/include/c++/11/math.h
+ /opt/ros/humble/include/urdfdom_headers/urdf_model/types.h
  /opt/ros/humble/include/kdl_parser/kdl_parser/visibility_control.hpp
- /usr/include/kdl/chain.hpp
- /usr/include/kdl/chainiksolverpos_nr.hpp
+ /usr/include/kdl/chainiksolverpos_lma.hpp
  /usr/include/kdl/chainiksolver.hpp
  /usr/include/kdl/framevel.hpp
  /usr/include/kdl/utilities/rall1d.h
@@ -891,33 +882,67 @@ CMakeFiles/helix_trajectory_publisher.dir/src/helix_trajectory_publisher.cpp.o
  /usr/include/kdl/jntarrayvel.hpp
  /usr/include/kdl/jntarrayacc.hpp
  /usr/include/kdl/solveri.hpp
- /usr/include/kdl/chainfksolver.hpp
- /usr/include/kdl/chainfksolverpos_recursive.hpp
- /usr/include/kdl/jntarray.hpp
- /usr/include/kdl/frames.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__struct.hpp
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/color_rgba__traits.hpp
- /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp
- /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp
+ /usr/include/eigen3/Eigen/Dense
+ /usr/include/eigen3/Eigen/Core
+ /usr/include/eigen3/Eigen/LU
+ /usr/include/eigen3/Eigen/src/misc/Kernel.h
+ /usr/include/eigen3/Eigen/src/misc/Image.h
+ /usr/include/eigen3/Eigen/src/LU/FullPivLU.h
+ /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h
+ /usr/include/eigen3/Eigen/src/LU/Determinant.h
+ /usr/include/eigen3/Eigen/src/LU/InverseImpl.h
+ /usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h
+ /usr/include/eigen3/Eigen/Cholesky
+ /usr/include/eigen3/Eigen/Jacobi
+ /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h
+ /usr/include/eigen3/Eigen/src/Cholesky/LLT.h
+ /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h
+ /usr/include/eigen3/Eigen/QR
+ /usr/include/eigen3/Eigen/Householder
+ /usr/include/eigen3/Eigen/src/Householder/Householder.h
+ /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h
+ /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h
+ /usr/include/eigen3/Eigen/src/QR/HouseholderQR.h
+ /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h
+ /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
+ /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+ /usr/include/eigen3/Eigen/SVD
+ /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h
+ /usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h
+ /usr/include/eigen3/Eigen/src/SVD/SVDBase.h
+ /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h
+ /usr/include/eigen3/Eigen/src/SVD/BDCSVD.h
+ /usr/include/eigen3/Eigen/Geometry
+ /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h
+ /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h
+ /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h
+ /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h
+ /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h
+ /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h
+ /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h
+ /usr/include/eigen3/Eigen/src/Geometry/Transform.h
+ /usr/include/eigen3/Eigen/src/Geometry/Translation.h
+ /usr/include/eigen3/Eigen/src/Geometry/Scaling.h
+ /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h
+ /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h
+ /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h
+ /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h
+ /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h
+ /usr/include/eigen3/Eigen/Eigenvalues
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
 

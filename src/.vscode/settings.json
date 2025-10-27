@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "/home/nithish/ur10e_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo"
+    "cmake.sourceDirectory": "/home/nithish/ur10e_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo",
+    "files.associations": {
+        "memory": "cpp",
+        "cmath": "cpp"
+    }
 }

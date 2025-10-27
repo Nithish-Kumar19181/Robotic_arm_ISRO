@@ -1,0 +1,21 @@
+[2.076s] Invoking command in '/home/nithish/ur10e_ws/src/wrench_bridge': PYTHONPATH=/home/nithish/ur10e_ws/build/wrench_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nithish/ur10e_ws/install/wrench_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wrench_bridge build --build-base /home/nithish/ur10e_ws/build/wrench_bridge/build install --record /home/nithish/ur10e_ws/build/wrench_bridge/install.log --single-version-externally-managed install_data
+[2.936s] running egg_info
+[2.940s] writing ../../build/wrench_bridge/wrench_bridge.egg-info/PKG-INFO
+[2.941s] writing dependency_links to ../../build/wrench_bridge/wrench_bridge.egg-info/dependency_links.txt
+[2.942s] writing entry points to ../../build/wrench_bridge/wrench_bridge.egg-info/entry_points.txt
+[2.942s] writing requirements to ../../build/wrench_bridge/wrench_bridge.egg-info/requires.txt
+[2.943s] writing top-level names to ../../build/wrench_bridge/wrench_bridge.egg-info/top_level.txt
+[2.953s] reading manifest file '../../build/wrench_bridge/wrench_bridge.egg-info/SOURCES.txt'
+[2.957s] writing manifest file '../../build/wrench_bridge/wrench_bridge.egg-info/SOURCES.txt'
+[2.957s] running build
+[2.958s] running build_py
+[2.958s] running install
+[2.960s] running install_lib
+[2.966s] running install_data
+[2.967s] running install_egg_info
+[2.975s] removing '/home/nithish/ur10e_ws/install/wrench_bridge/lib/python3.10/site-packages/wrench_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[2.976s] Copying ../../build/wrench_bridge/wrench_bridge.egg-info to /home/nithish/ur10e_ws/install/wrench_bridge/lib/python3.10/site-packages/wrench_bridge-0.0.0-py3.10.egg-info
+[2.980s] running install_scripts
+[3.078s] Installing wrench_bridge_node script to /home/nithish/ur10e_ws/install/wrench_bridge/lib/wrench_bridge
+[3.080s] writing list of installed files to '/home/nithish/ur10e_ws/build/wrench_bridge/install.log'
+[3.242s] Invoked command in '/home/nithish/ur10e_ws/src/wrench_bridge' returned '0': PYTHONPATH=/home/nithish/ur10e_ws/build/wrench_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nithish/ur10e_ws/install/wrench_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wrench_bridge build --build-base /home/nithish/ur10e_ws/build/wrench_bridge/build install --record /home/nithish/ur10e_ws/build/wrench_bridge/install.log --single-version-externally-managed install_data
