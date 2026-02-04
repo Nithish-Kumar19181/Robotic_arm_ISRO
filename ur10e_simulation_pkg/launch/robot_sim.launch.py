@@ -88,6 +88,13 @@ def generate_launch_description():
         ]
     )
 
+    filtered_force_node = Node(
+        package="ur10e_testing_pkg",
+        executable="ur10e_force_filter",
+        name="ur10e_force_filter",
+        output="screen"
+    )
+
     marker_array_node = Node(
         package="ur10e_testing_pkg",
         executable="ur10e_marker_array",
@@ -105,4 +112,5 @@ def generate_launch_description():
         delayed_cartesian_start,
         delayed_marker_node,
         wall_srdf,
+        filtered_force_node
     ])
