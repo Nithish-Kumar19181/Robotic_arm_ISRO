@@ -1,0 +1,12 @@
+# Goal
+string skill_name        
+
+---
+# Result
+bool success
+string message
+
+---
+# Feedback
+string state            
+float32 progress       

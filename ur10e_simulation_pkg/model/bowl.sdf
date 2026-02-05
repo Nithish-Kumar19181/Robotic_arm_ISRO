@@ -1,0 +1,41 @@
+<?xml version="1.6"?>
+<sdf version="1.6">
+  <model name="bowl_model">
+    <static>true</static>
+    <pose>0 0 0 0 0 0</pose> <!-- Position at origin -->
+    <link name="bowl_link">
+
+      <!-- Collision geometry -->
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>file:///home/tachyon/ur10e_ws/src/Universal_Robots_ROS2_Description/meshes/ur10e/collision/bowl.stl</uri>
+            <scale>0.0016 0.0016 0.0016</scale>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+        </surface>
+      </collision>
+
+      <!-- Visual geometry -->
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>file:///home/tachyon/ur10e_ws/src/Universal_Robots_ROS2_Description/meshes/ur10e/collision/bowl.stl</uri>
+            <scale>0.0015 0.0015 0.0015</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 0 0 1</ambient> <!-- Red -->
+          <diffuse>1 0 0 1</diffuse> <!-- Red -->
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0 0 0 1</emissive>
+        </material>
+      </visual>
+
+    </link>
+  </model>
+</sdf>
