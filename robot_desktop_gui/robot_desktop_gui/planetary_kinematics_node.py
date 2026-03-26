@@ -31,7 +31,7 @@ T_RING = T_SUN + 2 * T_PLANET
 
 SHROUD_MULT = 1.0 / 3.0
 ORBIT_MULT = 1.0 / 3.0
-SPIN_MULT = -4.0 / 3.0
+SPIN_MULT = -(T_RING / T_PLANET) * SHROUD_MULT
 
 JOINT_NAMES = [
     'sun_joint',
@@ -112,9 +112,9 @@ class PlanetaryKinematicsNode(Node):
         self.gazebo_cmd_pub.publish(cmd)
 
 
-def main():
+def main(args=None):
     """Run planetary kinematics ROS 2 node."""
-    rclpy.init()
+    rclpy.init(args=args)
     node = PlanetaryKinematicsNode()
     try:
         rclpy.spin(node)
