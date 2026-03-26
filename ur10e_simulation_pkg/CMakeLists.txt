@@ -39,6 +39,21 @@ install(
   DIRECTORY model/
   DESTINATION share/${PROJECT_NAME}/model
 )
+
+install(
+  DIRECTORY urdf/
+  DESTINATION share/${PROJECT_NAME}/urdf
+)
+
+install(
+  DIRECTORY config/
+  DESTINATION share/${PROJECT_NAME}/config
+)
+
+install(
+  PROGRAMS scripts/planetary_kinematics_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 ament_target_dependencies(ur10e_circle_follow
   rclcpp
   geometry_msgs
