@@ -36,6 +36,8 @@ setup(
             # THIS is what makes ros2 run work
             'gui_node = robot_desktop_gui.gui_node:main',
             'gui_driver_node = robot_desktop_gui.gui_driver_node:main',
+            'planetary_kinematics_node = '
+            'robot_desktop_gui.planetary_kinematics_node:main',
         ],
     },
 )
