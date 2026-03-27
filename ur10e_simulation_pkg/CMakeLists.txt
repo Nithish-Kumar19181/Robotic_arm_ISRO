@@ -36,13 +36,13 @@ install(
 )
 
 install(
-  DIRECTORY model/
-  DESTINATION share/${PROJECT_NAME}/model
+  DIRECTORY urdf/
+  DESTINATION share/${PROJECT_NAME}/urdf
 )
 
 install(
-  DIRECTORY urdf/
-  DESTINATION share/${PROJECT_NAME}/urdf
+  DIRECTORY meshes/
+  DESTINATION share/${PROJECT_NAME}/meshes
 )
 
 install(
@@ -51,7 +51,21 @@ install(
 )
 
 install(
-  PROGRAMS scripts/planetary_kinematics_node.py
+  DIRECTORY model/
+  DESTINATION share/${PROJECT_NAME}/model
+)
+
+install(
+  DIRECTORY scripts/
+  DESTINATION share/${PROJECT_NAME}/scripts
+  USE_SOURCE_PERMISSIONS
+)
+
+# Install Python scripts as executable nodes (for Node() launch action discovery)
+install(
+  PROGRAMS
+    scripts/planetary_kinematics_node.py
+    scripts/sun_joint_demo_trajectory.py
   DESTINATION lib/${PROJECT_NAME}
 )
 ament_target_dependencies(ur10e_circle_follow
@@ -113,7 +127,7 @@ ament_target_dependencies(ur10e_reverse_circle
   urdf
   kdl_parser
   orocos_kdl
-)  
+)
 
 install(TARGETS
   ur10e_circle_follow

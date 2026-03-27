@@ -36,6 +36,69 @@ This workspace is organized into several ROS2 packages:
 
 ---
 
+## How the Gazebo Model Moves
+
+### Overview
+The robot movement in Gazebo is enabled through a **ROS2 control framework** that bridges simulation physics with joint control commands. Here's how it works:
+
+### Key Components
+
+**1. URDF with ros2_control Tags**
+- The robot is defined in `Universal_Robots_ROS2_Description/urdf/ur.urdf.xacro`
+- When launched with `sim_gazebo:=true`, the URDF includes the `gazebo_ros2_control` plugin
+- This tells Gazebo how to treat the robot model and what interfaces are available
+
+**2. Gazebo ROS2 Control Plugin** (`libgazebo_ros2_control.so`)
+- Acts as a bridge between ROS2 controllers and Gazebo's physics engine
+- Reads control commands from ROS2 topics
+- Converts them to forces/torques applied to joints in Gazebo
+- Updates joint positions/velocities based on physics simulation
+
+**3. Controller Manager**
+- Central node that manages all control plugins
+- Runs at configurable rate (100 Hz by default as per `ur_controllers.yaml`)
+- Spawned during simulation startup and communicates with the Gazebo plugin
+
+**4. Controllers** (defined in [ur_simulation_gazebo/config/ur_controllers.yaml](src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo/config/ur_controllers.yaml))
+- `joint_trajectory_controller`: Receives trajectory commands and generates joint position references
+- `scaled_joint_trajectory_controller`: Speed-scaled variant for safety-limited motion
+- `forward_velocity_controller`: Direct velocity control
+- `forward_position_controller`: Direct position control
+- `joint_state_broadcaster`: Continuously publishes current joint states (positions/velocities)
+
+### Movement Flow
+
+```
+User Command (ROS2 topic)
+    ↓
+Joint Trajectory Controller (receives & parses command)
+    ↓
+Gazebo ROS2 Control Plugin (converts to joint forces)
+    ↓
+Gazebo Physics Engine (simulates joint motion based on forces & inertia)
+    ↓
+Joint State Broadcaster (publishes updated joint positions)
+    ↓
+RViz/Controllers (receive feedback & visualize)
+```
+
+### Launch Sequence
+The [ur_sim_control.launch.py](src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo/launch/ur_sim_control.launch.py) file orchestrates the startup:
+1. Generates robot URDF with Gazebo plugin enabled
+2. Launches Gazebo with physics enabled
+3. Spawns the robot model into Gazebo
+4. Starts the Controller Manager
+5. Spawns the Joint State Broadcaster (publishes monitored states)
+6. Spawns the Joint Trajectory Controller (ready to receive commands)
+
+### Why This Architecture?
+- **Decoupled Control**: Controllers don't directly manipulate Gazebo; they publish standard ROS2 interface commands
+- **Real-like Simulation**: Gazebo realistically simulates physics, inertia, gravity, and joint friction
+- **Easy Hardware Transfer**: The same controller configuration works with real hardware by simply loading a different hardware interface
+- **Extensible**: New controllers can be added without modifying the core simulation
+
+---
+
 ## Installation and Setup
 
 ### Prerequisites

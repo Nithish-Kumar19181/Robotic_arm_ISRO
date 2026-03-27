@@ -1,0 +1,373 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="planetary_mixer">
+    <static>false</static>
+    <self_collide>false</self_collide>
+    <allow_auto_disable>true</allow_auto_disable>
+
+    <link name="base_link">
+      <pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0.25 0 0 0</pose>
+        <mass>180.0</mass>
+        <inertia>
+          <ixx>9.45</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>9.45</iyy> <iyz>0.0</iyz> <izz>8.10</izz>
+        </inertia>
+      </inertial>
+      <visual name="base_visual">
+        <geometry>
+          <mesh>
+            <uri>PACKAGE_PATH/meshes/structure.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.7 0.7 0.7 1.0</ambient>
+          <diffuse>0.7 0.7 0.7 1.0</diffuse>
+        </material>
+      </visual>
+      <collision name="base_collision">
+        <pose>0 0 0.25 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.30</radius>
+            <length>0.60</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="shroud_link">
+      <pose>0 0 0 0 0 0</pose>
+      <velocity_decay>
+        <linear>0.2</linear>
+        <angular>0.5</angular>
+      </velocity_decay>
+      <inertial>
+        <pose>0 0 0.15 0 0 0</pose>
+        <mass>35.0</mass>
+        <inertia>
+          <ixx>0.75</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>0.75</iyy> <iyz>0.0</iyz> <izz>0.57</izz>
+        </inertia>
+      </inertial>
+      <visual name="shroud_visual">
+        <geometry>
+          <mesh>
+            <uri>PACKAGE_PATH/meshes/shroud.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.3 0.3 0.3 1.0</ambient>
+          <diffuse>0.3 0.3 0.3 1.0</diffuse>
+        </material>
+      </visual>
+      <collision name="shroud_collision">
+        <pose>0 0 0.15 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.18</radius>
+            <length>0.40</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="shroud_joint" type="revolute">
+      <parent>base_link</parent>
+      <child>shroud_link</child>
+      <pose>0 0 0 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e16</lower>
+          <upper>1e16</upper>
+        </limit>
+        <dynamics>
+          <damping>2.0</damping>
+          <friction>0.5</friction>
+        </dynamics>
+      </axis>
+    </joint>
+
+    <link name="sun_link">
+      <pose>0 0 0 0 0 0</pose>
+      <velocity_decay>
+        <linear>0.2</linear>
+        <angular>0.5</angular>
+      </velocity_decay>
+      <inertial>
+        <pose>0 0 0.10 0 0 0</pose>
+        <mass>15.0</mass>
+        <inertia>
+          <ixx>0.092</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>0.092</iyy> <iyz>0.0</iyz> <izz>0.027</izz>
+        </inertia>
+      </inertial>
+      <visual name="sun_visual">
+        <geometry>
+          <mesh>
+            <uri>PACKAGE_PATH/meshes/middle_blade.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.2 0.4 0.8 1.0</ambient>
+          <diffuse>0.2 0.4 0.8 1.0</diffuse>
+        </material>
+      </visual>
+      <collision name="sun_collision">
+        <pose>0 0 0.10 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.06</radius>
+            <length>0.25</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="sun_joint" type="revolute">
+      <parent>base_link</parent>
+      <child>sun_link</child>
+      <pose>0 0 0 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e16</lower>
+          <upper>1e16</upper>
+        </limit>
+        <dynamics>
+          <damping>1.5</damping>
+          <friction>0.4</friction>
+        </dynamics>
+      </axis>
+    </joint>
+
+    <link name="planet_1_carrier">
+      <pose>0 0 0 0 0 0</pose>
+      <velocity_decay>
+        <linear>0.2</linear>
+        <angular>0.8</angular>
+      </velocity_decay>
+      <inertial>
+        <mass>5.0</mass>
+        <inertia>
+          <ixx>0.0022</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>0.0022</iyy> <iyz>0.0</iyz> <izz>0.0023</izz>
+        </inertia>
+      </inertial>
+    </link>
+
+    <joint name="planet_1_orbit_joint" type="revolute">
+      <parent>base_link</parent>
+      <child>planet_1_carrier</child>
+      <pose>0 0 0 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e16</lower>
+          <upper>1e16</upper>
+        </limit>
+        <dynamics>
+          <damping>4.0</damping>
+          <friction>1.0</friction>
+        </dynamics>
+      </axis>
+    </joint>
+
+    <link name="planet_1_link">
+      <pose>0.155943 -0.456764 0 0 0 0</pose>
+      <velocity_decay>
+        <linear>0.2</linear>
+        <angular>0.8</angular>
+      </velocity_decay>
+      <inertial>
+        <pose>0 0 0.10 0 0 0</pose>
+        <mass>12.0</mass>
+        <inertia>
+          <ixx>0.069</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>0.069</iyy> <iyz>0.0</iyz> <izz>0.012</izz>
+        </inertia>
+      </inertial>
+      <visual name="planet_1_visual">
+        <pose>-0.155943 0.456764 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>PACKAGE_PATH/meshes/blade_1.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.8 0.2 0.2 1.0</ambient>
+          <diffuse>0.8 0.2 0.2 1.0</diffuse>
+        </material>
+      </visual>
+      <collision name="planet_1_collision">
+        <pose>0 0 0.10 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.045</radius>
+            <length>0.25</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="planet_1_spin_joint" type="revolute">
+      <parent>planet_1_carrier</parent>
+      <child>planet_1_link</child>
+      <pose>0 0 0 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e16</lower>
+          <upper>1e16</upper>
+        </limit>
+        <dynamics>
+          <damping>4.0</damping>
+          <friction>1.0</friction>
+        </dynamics>
+      </axis>
+    </joint>
+
+    <link name="planet_2_carrier">
+      <pose>0 0 0 0 0 0</pose>
+      <velocity_decay>
+        <linear>0.2</linear>
+        <angular>0.8</angular>
+      </velocity_decay>
+      <inertial>
+        <mass>5.0</mass>
+        <inertia>
+          <ixx>0.0022</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>0.0022</iyy> <iyz>0.0</iyz> <izz>0.0023</izz>
+        </inertia>
+      </inertial>
+    </link>
+
+    <joint name="planet_2_orbit_joint" type="revolute">
+      <parent>base_link</parent>
+      <child>planet_2_carrier</child>
+      <pose>0 0 0 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e16</lower>
+          <upper>1e16</upper>
+        </limit>
+        <dynamics>
+          <damping>4.0</damping>
+          <friction>1.0</friction>
+        </dynamics>
+      </axis>
+    </joint>
+
+    <link name="planet_2_link">
+      <pose>-0.155847 0.456481 0 0 0 0</pose>
+      <velocity_decay>
+        <linear>0.2</linear>
+        <angular>0.8</angular>
+      </velocity_decay>
+      <inertial>
+        <pose>0 0 0.10 0 0 0</pose>
+        <mass>12.0</mass>
+        <inertia>
+          <ixx>0.069</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>0.069</iyy> <iyz>0.0</iyz> <izz>0.012</izz>
+        </inertia>
+      </inertial>
+      <visual name="planet_2_visual">
+        <pose>0.155847 -0.456481 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>PACKAGE_PATH/meshes/blade_2.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.2 0.8 0.2 1.0</ambient>
+          <diffuse>0.2 0.8 0.2 1.0</diffuse>
+        </material>
+      </visual>
+      <collision name="planet_2_collision">
+        <pose>0 0 0.10 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.045</radius>
+            <length>0.25</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="planet_2_spin_joint" type="revolute">
+      <parent>planet_2_carrier</parent>
+      <child>planet_2_link</child>
+      <pose>0 0 0 0 0 0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1e16</lower>
+          <upper>1e16</upper>
+        </limit>
+        <dynamics>
+          <damping>4.0</damping>
+          <friction>1.0</friction>
+        </dynamics>
+      </axis>
+    </joint>
+
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+      <parameters>/home/nithish/ur10e_force_mode_ws/src/ur10e_simulation_pkg/config/controllers.yaml</parameters>
+      <ros>
+        <namespace>/mixer</namespace>
+      </ros>
+    </plugin>
+
+    <ros2_control name="mixer_planetary_system" type="system">
+      <hardware>
+        <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+      </hardware>
+
+      <joint name="sun_joint">
+        <command_interface name="position"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="shroud_joint">
+        <command_interface name="position"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="planet_1_orbit_joint">
+        <command_interface name="position"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="planet_1_spin_joint">
+        <command_interface name="position"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="planet_2_orbit_joint">
+        <command_interface name="position"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+      </joint>
+
+      <joint name="planet_2_spin_joint">
+        <command_interface name="position"/>
+        <state_interface name="position"/>
+        <state_interface name="velocity"/>
+      </joint>
+    </ros2_control>
+
+  </model>
+</sdf>
