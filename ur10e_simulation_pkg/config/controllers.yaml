@@ -1,0 +1,29 @@
+# controllers.yaml — MY-300 Planetary Mixer (Gazebo Classic / ros2_control)
+#
+# Joints (in order matching forward_position_controller/commands):
+#   1. sun_joint
+#   2. shroud_joint
+#   3. planet_1_orbit_joint
+#   4. planet_1_spin_joint
+#   5. planet_2_orbit_joint
+#   6. planet_2_spin_joint
+
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    forward_position_controller:
+      type: position_controllers/JointGroupPositionController
+
+forward_position_controller:
+  ros__parameters:
+    joints:
+      - sun_joint
+      - shroud_joint
+      - planet_1_orbit_joint
+      - planet_1_spin_joint
+      - planet_2_orbit_joint
+      - planet_2_spin_joint
