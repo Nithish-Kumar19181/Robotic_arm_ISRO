@@ -175,15 +175,33 @@ def launch_setup(context, *args, **kwargs):
         arguments=[
         "-entity", "ur",
         "-topic", "robot_description",
-        "-x", "0.0",
+        "-x", "-1.25",
         "-y", "0",
-        "-z", "1.48", 
-        "-R", "3.14159",     
+        "-z", "2.15", 
+        # "-R", "3.14159",     
+        "-R", "0",
         "-P", "0",
-        "-Y", "0",
+        "-Y", "3.14159",
         ],
         output="screen",
     )
+
+    # gazebo_spawn_robot = Node(
+    #     package="gazebo_ros",
+    #     executable="spawn_entity.py",
+    #     name="spawn_ur",
+    #     arguments=[
+    #     "-entity", "ur",
+    #     "-topic", "robot_description",
+    #     "-x", "0.0",
+    #     "-y", "0",
+    #     "-z", "1.48", 
+    #     "-R", "3.14159",     
+    #     "-P", "0",
+    #     "-Y", "0",
+    #     ],
+    #     output="screen",
+    # )
 
     nodes_to_start = [
         robot_state_publisher_node,

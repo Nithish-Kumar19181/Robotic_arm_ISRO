@@ -72,6 +72,7 @@ private:
 
     std::vector<MotionPrimitiveBase*> queue_;
     std::vector<MotionPrimitiveBase*>::iterator current_;
+    MotionPrimitiveBase* last_active_{nullptr};
 
     std::string urdf_string_;
 
@@ -132,11 +133,25 @@ private:
         {
             MotionPrimitiveBase* active = *current_;
 
+            if (active != last_active_)
+            {
+                last_active_ = active;
+                last_time_ = now_time;
+                dt = 0.0;
+            }
+
             if (active->getProgress() == 0.0)
                 active->onStart(robot_state_, urdf_string_);
 
             if (!active->isDone())
-                active->update(robot_state_, dt);
+            {
+                // ApproachPrimitive in current codebase expects absolute time,
+                // while CirclePrimitive expects dt.
+                if (active == &approach_)
+                    active->update(robot_state_, now_time.seconds());
+                else
+                    active->update(robot_state_, dt);
+            }
 
             RCLCPP_INFO_THROTTLE(get_logger(), *get_clock(), 1000,
                 "Active primitive progress: %.1f%%  fz=%.2f N",

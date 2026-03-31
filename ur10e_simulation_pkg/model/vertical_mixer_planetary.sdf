@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
   <model name="planetary_mixer">
-    <static>false</static>
+    <static>true</static>
     <self_collide>false</self_collide>
     <allow_auto_disable>true</allow_auto_disable>
 
@@ -28,12 +28,12 @@
         </material>
       </visual>
       <collision name="base_collision">
-        <pose>0 0 0.25 0 0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <cylinder>
-            <radius>0.30</radius>
-            <length>0.60</length>
-          </cylinder>
+          <mesh>
+            <uri>PACKAGE_PATH/meshes/structure.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
         </geometry>
       </collision>
     </link>
@@ -65,12 +65,12 @@
         </material>
       </visual>
       <collision name="shroud_collision">
-        <pose>0 0 0.15 0 0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <cylinder>
-            <radius>0.18</radius>
-            <length>0.40</length>
-          </cylinder>
+          <mesh>
+            <uri>PACKAGE_PATH/meshes/shroud.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
         </geometry>
       </collision>
     </link>
@@ -119,12 +119,12 @@
         </material>
       </visual>
       <collision name="sun_collision">
-        <pose>0 0 0.10 0 0 0</pose>
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <cylinder>
-            <radius>0.06</radius>
-            <length>0.25</length>
-          </cylinder>
+          <mesh>
+            <uri>PACKAGE_PATH/meshes/middle_blade.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
         </geometry>
       </collision>
     </link>
@@ -206,12 +206,12 @@
         </material>
       </visual>
       <collision name="planet_1_collision">
-        <pose>0 0 0.10 0 0 0</pose>
+        <pose>-0.155943 0.456764 0 0 0 0</pose>
         <geometry>
-          <cylinder>
-            <radius>0.045</radius>
-            <length>0.25</length>
-          </cylinder>
+          <mesh>
+            <uri>PACKAGE_PATH/meshes/blade_1.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
         </geometry>
       </collision>
     </link>
@@ -293,12 +293,12 @@
         </material>
       </visual>
       <collision name="planet_2_collision">
-        <pose>0 0 0.10 0 0 0</pose>
+        <pose>0.155847 -0.456481 0 0 0 0</pose>
         <geometry>
-          <cylinder>
-            <radius>0.045</radius>
-            <length>0.25</length>
-          </cylinder>
+          <mesh>
+            <uri>PACKAGE_PATH/meshes/blade_2.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
         </geometry>
       </collision>
     </link>

@@ -63,27 +63,27 @@ def generate_launch_description():
         cmd=[
             "ros2", "run", "controller_manager", "spawner",
             "cartesian_compliance_controller",
-            "--load-only",
+            "--inactive",
             "--controller-manager", "/controller_manager"
         ],
         output="screen"
     )
 
     delayed_ur_compliance_loader = TimerAction(
-        period=2.0,
+        period=5.0,
         actions=[spawn_cartesian_compliance],
     )
 
     # Spawn mixer model in /mixer namespace, isolated from UR10e ROS graph.
     spawn_planetary_mixer = TimerAction(
-        period=2.0,
+        period=5.0,
         actions=[Node(
             package='gazebo_ros',
             executable='spawn_entity.py',
             arguments=[
                 '-entity', 'planetary_mixer',
                 '-file', sdf_spawn_path,
-                '-x', '0.5',
+                '-x', '0.0',
                 '-y', '0.0',
                 '-z', '0.00',
             ],
@@ -194,18 +194,16 @@ def generate_launch_description():
         ),
 
         # UR10e (MoveIt + /controller_manager)
+        spawn_planetary_mixer,
         ur_sim_moveit,
         delayed_ur_compliance_loader,
-
-        # Mixer (/mixer + /mixer/controller_manager)
-        spawn_planetary_mixer,
-        planetary_state_publisher,
-        jsb_spawner_mixer,
-        fpc_spawner_mixer,
-        kinematics_node,
-        demo_motion_node,
-
-        # Visualization and Monitoring
         delayed_marker_node,
         filtered_force_node,
+        # Mixer (/mixer + /mixer/controller_manager)
+        jsb_spawner_mixer,
+        fpc_spawner_mixer,
+        planetary_state_publisher,
+        kinematics_node,
+        # demo_motion_node,
+
     ])

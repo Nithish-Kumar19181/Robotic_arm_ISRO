@@ -17,6 +17,7 @@ add_library(${PROJECT_NAME}_primitives SHARED
   src/primitives/circle.cpp
   src/primitives/helix.cpp
   src/primitives/retract.cpp
+  src/primitives/horizontal.cpp
   src/robot_state_provider.cpp
 )
 target_include_directories(${PROJECT_NAME}_primitives PUBLIC
@@ -34,6 +35,7 @@ ament_target_dependencies(${PROJECT_NAME}_primitives
 add_executable(approach_node src/approach_node.cpp)
 add_executable(circle_follow_node src/circle_follow_node.cpp)
 add_executable(approach_circle_node src/approach_circle_node.cpp)
+add_executable(approach_horizontal_node src/approach_horizontal_node.cpp)
 
 target_include_directories(approach_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -47,6 +49,10 @@ target_include_directories(approach_circle_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 )
 
+target_include_directories(approach_horizontal_node PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+)
+
 target_link_libraries(approach_node
   ${PROJECT_NAME}_primitives
 )
@@ -56,6 +62,10 @@ target_link_libraries(circle_follow_node
 )
 
 target_link_libraries(approach_circle_node
+  ${PROJECT_NAME}_primitives
+)
+
+target_link_libraries(approach_horizontal_node
   ${PROJECT_NAME}_primitives
 )
 
@@ -83,6 +93,14 @@ ament_target_dependencies(approach_circle_node
   ur10e_force_control_base
 )
 
+ament_target_dependencies(approach_horizontal_node
+  rclcpp 
+  geometry_msgs 
+  sensor_msgs 
+  std_msgs 
+  ur10e_force_control_base
+)
+
 install(TARGETS ${PROJECT_NAME}_primitives
   EXPORT export_${PROJECT_NAME}
   ARCHIVE DESTINATION lib
@@ -94,6 +112,7 @@ install(TARGETS
   approach_node
   circle_follow_node
   approach_circle_node
+  approach_horizontal_node
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
