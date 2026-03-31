@@ -28,7 +28,6 @@ class PrimitiveQueueNode : public rclcpp::Node
 public:
     PrimitiveQueueNode() : Node("approach_horizontal_node")
     {
-        // ── Subscriptions ─────────────────────────────────────────────
         wrench_sub_ = create_subscription<geometry_msgs::msg::WrenchStamped>(
             "/cartesian_compliance_controller/ft_sensor_wrench",
             rclcpp::SensorDataQoS(),
@@ -44,21 +43,17 @@ public:
             rclcpp::QoS(1).transient_local(),
             std::bind(&PrimitiveQueueNode::robotDescriptionCallback, this, _1));
 
-        // ── Publishers ─────────────────────────────────────────────────
         pose_pub_ = create_publisher<geometry_msgs::msg::PoseStamped>(
             "/cartesian_compliance_controller/target_frame", 10);
 
         wrench_pub_ = create_publisher<geometry_msgs::msg::WrenchStamped>(
             "/cartesian_compliance_controller/target_wrench", 10);
 
-        // ── Timer ──────────────────────────────────────────────────────
         timer_ = create_wall_timer(
             std::chrono::milliseconds(10),
             std::bind(&PrimitiveQueueNode::timerCallback, this));
 
-        // ── Primitive parameters ───────────────────────────────────────
 
-        // Approach primitive
         approach_.setParameters(
             0.25,  // speed
             7.0,   // contact threshold
@@ -66,7 +61,6 @@ public:
             15.0   // timeout
         );
 
-        // Horizontal sliding primitive
         horizontal_right_.setParameters(
             0.04,   // linear speed (m/s)
             0.55,    // travel distance (m)
@@ -81,7 +75,6 @@ public:
             0.08    // max rate
         );
 
-        // Horizontal sliding primitive
         horizontal_left_.setParameters(
             0.04,   // linear speed (m/s)
             0.55,    // travel distance (m)
@@ -96,7 +89,6 @@ public:
             0.06    // max rate
         );
 
-        // ── Queue ─────────────────────────────────────────────────────
         queue_.push_back(&approach_);
         queue_.push_back(&horizontal_right_);
         queue_.push_back(&horizontal_left_);
@@ -105,7 +97,6 @@ public:
     }
 
 private:
-    // ── ROS interfaces ────────────────────────────────────────────────
     rclcpp::Subscription<geometry_msgs::msg::WrenchStamped>::SharedPtr wrench_sub_;
     rclcpp::Subscription<sensor_msgs::msg::JointState>::SharedPtr joint_state_sub_;
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr robot_desc_sub_;
@@ -115,7 +106,6 @@ private:
 
     rclcpp::TimerBase::SharedPtr timer_;
 
-    // ── State ─────────────────────────────────────────────────────────
     RobotState robot_state_;
     robot_state_provider::RobotStateProvider state_provider_;
 
@@ -136,7 +126,6 @@ private:
     rclcpp::Time last_time_;
     bool last_time_set_{false};
 
-    // ── Callbacks ─────────────────────────────────────────────────────
     void wrenchCallback(const geometry_msgs::msg::WrenchStamped::SharedPtr msg)
     {
         robot_state_.wrench_z_ = *msg;
@@ -157,7 +146,6 @@ private:
         RCLCPP_INFO(get_logger(), "URDF received – kinematics initialised");
     }
 
-    // ── Main loop ─────────────────────────────────────────────────────
     void timerCallback()
     {
         if (!got_joints_ || !got_wrench_ || !got_urdf_)
@@ -166,13 +154,11 @@ private:
         if (!state_provider_.updateRobotState(robot_state_))
             return;
 
-        // Compute dt
         rclcpp::Time now_time = this->now();
         double dt = last_time_set_ ? (now_time - last_time_).seconds() : 0.01;
         last_time_ = now_time;
         last_time_set_ = true;
 
-        // Advance queue
         while (current_ != queue_.end() && (*current_)->isDone())
         {
             RCLCPP_INFO(get_logger(), "Primitive '%s' done → next",
@@ -224,7 +210,6 @@ private:
     }
 };
 
-// ─────────────────────────────────────────────────────────────────────
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
